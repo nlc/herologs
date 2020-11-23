@@ -1,4 +1,4 @@
-hlogs() {
+herologs() {
   local service_name="$DEFAULT_HLOGS_SERVICE"
 
   if [[ "$#" -gt 0 ]]; then
