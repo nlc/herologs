@@ -10,4 +10,4 @@ herologs() {
   heroku logs -t -a "$service_name" | awk -f log_parser.awk
 }
 
-hlogs $1
+herologs $1
