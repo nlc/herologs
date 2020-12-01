@@ -97,9 +97,9 @@ $2 ~ /^heroku\[router\]:$/ {
     code_count = code_counts[dyno "," code];
 
     # <3 -> normal
-    # =2 -> cyan
-    # =3 -> yellow
-    # >3 -> red
+    # =2 -> yellow
+    # =3 -> red
+    # >3 -> reverse red, blinking star
     color_tag = "";
     if(low_priority(code)) {
       if(code_count < 2) {
