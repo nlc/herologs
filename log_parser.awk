@@ -4,10 +4,10 @@
 function time_diff(t1, t2) {
   # 2020-03-10T23:36:03.451695+00:00
 
-  if(t1 !~ /[0-9][0-9][0-9][0-9]-[01][0-9]-[0-3][0-9]T[0-2][0-9]:[0-5][0-9]:[0-5][0-9]\.[0-9][0-9]*\+00:00/) {
+  if(t1 !~ /[0-9][0-9][0-9][0-9]-[01][0-9]-[0-3][0-9]T[0-2][0-9]:[0-5][0-9]:[0-5][0-9]\.[0-9][0-9]*\+[0-9][0-9]:[0-9][0-9]/) {
     return 99999999;
   }
-  if(t2 !~ /[0-9][0-9][0-9][0-9]-[01][0-9]-[0-3][0-9]T[0-2][0-9]:[0-5][0-9]:[0-5][0-9]\.[0-9][0-9]*\+00:00/) {
+  if(t2 !~ /[0-9][0-9][0-9][0-9]-[01][0-9]-[0-3][0-9]T[0-2][0-9]:[0-5][0-9]:[0-5][0-9]\.[0-9][0-9]*\+[0-9][0-9]:[0-9][0-9]/) {
     return 99999999;
   }
 
@@ -43,7 +43,14 @@ function low_priority(code) {
 }
 
 BEGIN {
-  timeout = 120;
+  # After this many seconds without a complaint,
+  # a given dyno's errors will be reset to 0
+  timeout = 60;
+
+  # Describe a field
+  # timestamp | "heroku[router]" | key"="field
+  FPAT = "[0-9][0-9][0-9][0-9]-[01][0-9]-[0-3][0-9]T[0-2][0-9]:[0-5][0-9]:[0-5][0-9]\\.[0-9][0-9]*\\+[0-9][0-9]:[0-9][0-9]|heroku\\[router\\]:|\\S+=(\\S+|\"[^\"]+\")";
+
 }
 
 $2 ~ /^heroku\[router\]:$/ {
@@ -54,8 +61,15 @@ $2 ~ /^heroku\[router\]:$/ {
   }
 
   for(i = 3; i <= NF; i++) {
-    split($i, kvpair, "=")
-    data[kvpair[1]] = kvpair[2];
+    split($i, kvpair, "=");
+    key = kvpair[1];
+    value = kvpair[2];
+    if(key && value) {
+      data[key] = value;
+    } else {
+      print "bad value ", value
+      print "or bad key", key
+    }
   }
 
   if(data["code"] ~ /H[0-9][0-9]/) {
@@ -123,9 +137,11 @@ $2 ~ /^heroku\[router\]:$/ {
   }
 }
 
-# $2 !~ /^heroku\[router\]:$/ {
-#   factor = 50;
-#   frames = "|/-\\";
-#   printf("\b\b %s", substr(frames, (iframe / factor) + 1, 1));
-#   iframe = ((iframe + 1) % (length(frames) * factor));
-# }
+# TODO: Prevent from spinning too fast
+# TODO: Use cursor movement codes to shift the spinner to a safe location
+{
+  factor = 1;
+  frames = "|/-\\";
+  printf("\b\b %s", substr(frames, (iframe / factor) + 1, 1));
+  iframe = ((iframe + 1) % (length(frames) * factor));
+}
