@@ -137,11 +137,11 @@ $2 ~ /^heroku\[router\]:$/ {
   }
 }
 
-# TODO: Prevent from spinning too fast
-# TODO: Use cursor movement codes to shift the spinner to a safe location
-{
-  factor = 1;
-  frames = "|/-\\";
-  printf("\b\b %s", substr(frames, (iframe / factor) + 1, 1));
-  iframe = ((iframe + 1) % (length(frames) * factor));
-}
+# # TODO: Prevent from spinning too fast
+# # TODO: Use cursor movement codes to shift the spinner to a safe location
+# {
+#   factor = 1;
+#   frames = "|/-\\";
+#   printf("\b\b %s", substr(frames, (iframe / factor) + 1, 1));
+#   iframe = ((iframe + 1) % (length(frames) * factor));
+# }
