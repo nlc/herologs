@@ -1,5 +1,7 @@
 # herologs
-Parse Heroku service logs to monitor errors using only vanilla AWK.
+Parse Heroku service logs to monitor errors using only ~~vanilla AWK~~ GNU AWK.
+
+TODO: Current syntax tricks require gawk. Investigate refactoring so that only awk is needed.
 
 <img width=300px src="https://github.com/nlc/herologs/raw/master/screenshot.png?raw=true">
 
