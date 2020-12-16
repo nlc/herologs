@@ -10,4 +10,15 @@ herologs() {
   heroku logs -t -a "$service_name" | awk -f log_parser.awk
 }
 
+herorestart() {
+  if [[ "$#" -eq 0 ]]; then
+    echo "Usage: herorestart <dyno_name>"
+    return
+  fi
+
+  for dyno_name in $@; do
+    heroku dyno:restart "$dyno_name" -a kicksite-prod
+  done
+}
+
 herologs $1

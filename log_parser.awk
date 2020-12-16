@@ -64,7 +64,7 @@ $2 ~ /^heroku\[router\]:$/ {
     split($i, kvpair, "=");
     key = kvpair[1];
     value = kvpair[2];
-    if(key && value) {
+    if(length(key) && length(value)) {
       data[key] = value;
     } else {
       print "bad value ", value
@@ -124,6 +124,7 @@ $2 ~ /^heroku\[router\]:$/ {
            code,
            code_count);
 
+    # TODO: Shift the asterisk over a couple spaces in case of hundreds of H12s
     if(!low_priority(code)) {
       if(code_count > 3) {
         printf("\033[5;31m *\033[0m");
@@ -135,6 +136,12 @@ $2 ~ /^heroku\[router\]:$/ {
     last_dyno = dyno;
     last_code = code;
   }
+}
+
+# TODO: Add a dyno restart detector
+# 2020-12-16T20:19:38.022940+00:00 heroku[web.3]: Restarting
+# 2020-12-16T20:19:38.035562+00:00 heroku[web.3]: State changed from up to starting 
+/heroku\[(web|worker)\.[0-9]+\]: Restarting/ {
 }
 
 # # TODO: Prevent from spinning too fast
