@@ -3,5 +3,6 @@
 2020-03-10T23:36:05.451695+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/" host=myapp.herokuapp.com fwd=17.17.17.17 dyno=web.1 connect=6ms service=30001ms status=503
 2020-03-10T23:36:06.451695+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/" host=myapp.herokuapp.com fwd=17.17.17.17 dyno=web.1 connect=6ms service=30001ms status=503
 2020-03-10T23:36:07.451695+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/" host=myapp.herokuapp.com fwd=17.17.17.17 dyno=web.2 connect=6ms service=30001ms status=503
+2020-03-10T23:36:07.901833+00:00 heroku[router]: at=info method=GET path="/" host=myapp.herokuapp.com request_id=8a488bf8-99b1-2f20-fea6-83bc80f11d1a fwd="17.17.17.17" dyno=web.5 connect=1ms service=62ms status=500 bytes=4464 protocol=https
 2020-03-10T23:36:08.451695+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/" host=myapp.herokuapp.com fwd=17.17.17.17 dyno=web.2 connect=6ms service=30001ms status=503
 2020-03-10T23:46:11.451695+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/" host=myapp.herokuapp.com fwd=17.17.17.17 dyno=web.1 connect=6ms service=30001ms status=503

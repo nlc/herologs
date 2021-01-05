@@ -135,12 +135,15 @@ $2 ~ /^heroku\[router\]:$/ {
     last_seen[dyno "," code] = timestamp;
     last_dyno = dyno;
     last_code = code;
+  } else if(data["status"] ~ /5[0-9][0-9]/) {
+    status = data["status"];
+    printf("\n !!!       %d\n", status);
   }
 }
 
 # TODO: Add a dyno restart detector
 # 2020-12-16T20:19:38.022940+00:00 heroku[web.3]: Restarting
-# 2020-12-16T20:19:38.035562+00:00 heroku[web.3]: State changed from up to starting 
+# 2020-12-16T20:19:38.035562+00:00 heroku[web.3]: State changed from up to starting
 /heroku\[(web|worker)\.[0-9]+\]: Restarting/ {
 }
 
