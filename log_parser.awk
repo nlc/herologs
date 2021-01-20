@@ -49,8 +49,7 @@ BEGIN {
 
   # Describe a field
   # timestamp | "heroku[router]" | key"="field
-  FPAT = "[0-9][0-9][0-9][0-9]-[01][0-9]-[0-3][0-9]T[0-2][0-9]:[0-5][0-9]:[0-5][0-9]\\.[0-9][0-9]*\\+[0-9][0-9]:[0-9][0-9]|heroku\\[router\\]:|\\S+=(\\S+|\"[^\"]+\")";
-
+  FPAT = "[0-9][0-9][0-9][0-9]-[01][0-9]-[0-3][0-9]T[0-2][0-9]:[0-5][0-9]:[0-5][0-9]\\.[0-9][0-9]*\\+[0-9][0-9]:[0-9][0-9]|heroku\\[(router|(web|worker)\.[0-9]+)\\]:|\\S+=(\\S+|\"[^\"]+\")|Error|[A-Z][0-9]+";
 }
 
 $2 ~ /^heroku\[router\]:$/ {
@@ -72,6 +71,7 @@ $2 ~ /^heroku\[router\]:$/ {
     }
   }
 
+  # TODO: Much of this logic should be moved into another block so that it's not dependent on this block's pattern
   if(data["code"] ~ /H[0-9][0-9]/) {
     dyno = data["dyno"];
     code = data["code"];
@@ -137,8 +137,27 @@ $2 ~ /^heroku\[router\]:$/ {
     last_code = code;
   } else if(data["status"] ~ /5[0-9][0-9]/) {
     status = data["status"];
-    printf("\n !!!       %d\n", status);
+    printf("\n !!!       %d", status);
+    last_code = status;
   }
+}
+
+/heroku\[(web|worker)\.[0-9]+\]: Error/ {
+  dyno = gensub(/.*heroku\[((web|worker)\.[0-9]+)\].*/, "\\1", "g", $0);
+  code = $4;
+
+  # FIXME: This is duplicated
+  # is it a repeat?
+  if(!timed_out && dyno == last_dyno && code == last_code) {
+    printf("\033[K\r");
+  } else {
+    printf("\n");
+  }
+
+  printf("% -10s %s\033[0m", dyno, code);
+  last_seen[dyno "," code] = timestamp;
+  last_dyno = dyno;
+  last_code = code;
 }
 
 # TODO: Add a dyno restart detector
