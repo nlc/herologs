@@ -31,4 +31,4 @@ herorestart() {
   done
 }
 
-herologs $1
+# herologs $1

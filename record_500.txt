@@ -1,0 +1,604 @@
+2021-01-06T16:08:50.641767+00:00 heroku[router]: at=info method=GET path="/okcomputer/delayed_job" host=status.classic.kicksite.net request_id=e9350f81-1094-489f-82c1-37346bea5e33 fwd="35.173.69.86" dyno=web.2 connect=0ms service=101ms status=500 bytes=529 protocol=https
+2021-01-06T16:08:50.503409+00:00 app[web.1]: Started GET "/students/1715456/financing" for 174.72.169.122 at 2021-01-06 16:08:50 +0000
+2021-01-06T16:08:50.510806+00:00 app[web.1]: Processing by FinancingController#index as HTML
+2021-01-06T16:08:50.510941+00:00 app[web.1]: Parameters: {"student_id"=>"1715456"}
+2021-01-06T16:08:50.558471+00:00 heroku[router]: at=info method=POST path="/invitations/334999" host=blackeagle.classic.kicksite.net request_id=6b35e9f8-cca4-4345-ae05-abdc5656aea1 fwd="151.165.212.93" dyno=web.2 connect=1ms service=166ms status=302 bytes=1498 protocol=https
+2021-01-06T16:08:50.541749+00:00 app[web.2]: Redirected to https://blackeagle.kicksite.net//invitations
+2021-01-06T16:08:50.542597+00:00 app[web.2]: Completed 302 Found in 134ms (ActiveRecord: 62.9ms)
+2021-01-06T16:08:50.558898+00:00 app[web.2]: Started GET "/okcomputer/delayed_job" for 35.173.69.86 at 2021-01-06 16:08:50 +0000
+2021-01-06T16:08:50.588661+00:00 app[web.2]: Processing by OkComputer::OkComputerController#show as */*
+2021-01-06T16:08:50.589186+00:00 app[web.2]: Parameters: {"subdomain"=>"status.classic", "check"=>"[FILTERED]"}
+2021-01-06T16:08:50.637233+00:00 app[web.2]: Completed 500 Internal Server Error in 48ms (Views: 0.8ms | ActiveRecord: 23.8ms)
+2021-01-06T16:08:50.904907+00:00 app[web.3]: Started GET "/billing/recurring_billings/131618" for 73.187.209.79 at 2021-01-06 16:08:50 +0000
+2021-01-06T16:08:50.917497+00:00 app[web.3]: Processing by Billing::RecurringBillingsController#show as HTML
+2021-01-06T16:08:50.930443+00:00 app[web.3]: Parameters: {"id"=>"131618"}
+2021-01-06T16:08:51.240326+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.282959+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.288437+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.289965+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.296225+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.316289+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.323179+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.328835+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.344057+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.357069+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.367515+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.379947+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.391759+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.393458+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.427295+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.444811+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.447197+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.479670+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.325728+00:00 app[web.2]: Started GET "/okcomputer/delayed_job" for 52.42.49.200 at 2021-01-06 16:08:51 +0000
+2021-01-06T16:08:51.346896+00:00 app[web.2]: Processing by OkComputer::OkComputerController#show as */*
+2021-01-06T16:08:51.347074+00:00 app[web.2]: Parameters: {"subdomain"=>"status.classic", "check"=>"[FILTERED]"}
+2021-01-06T16:08:51.377425+00:00 app[web.2]: Completed 500 Internal Server Error in 30ms (Views: 0.5ms | ActiveRecord: 27.7ms)
+2021-01-06T16:08:51.352647+00:00 app[web.1]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.508409+00:00 app[web.1]: Completed 200 OK in 997ms (Views: 267.6ms | ActiveRecord: 691.7ms)
+2021-01-06T16:08:51.381419+00:00 heroku[router]: at=info method=GET path="/okcomputer/delayed_job" host=status.classic.kicksite.net request_id=327a847e-9e66-4173-8b95-daa88469bc34 fwd="52.42.49.200" dyno=web.2 connect=0ms service=63ms status=500 bytes=529 protocol=https
+2021-01-06T16:08:51.525950+00:00 heroku[router]: at=info method=GET path="/students/1715456/financing" host=cobrinhabjjlv.classic.kicksite.net request_id=d94bb0e9-a793-4aa4-9090-26657b7a1b9f fwd="174.72.169.122" dyno=web.1 connect=0ms service=1027ms status=200 bytes=12479 protocol=https
+2021-01-06T16:08:51.492128+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.504978+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.520967+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.536962+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.541150+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.555692+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.574400+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.576284+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.580941+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.590605+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.614150+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.619673+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.640151+00:00 app[web.3]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:51.654572+00:00 heroku[router]: at=info method=GET path="/assets/application-1904b5213e55e71e3e4065857ec30fa7f930204e8bdbc73aff2ee85d41838d2b.css" host=assets.classic.kicksite.net request_id=1006b89f-8075-47fd-b87a-37c66c7beb9e fwd="174.72.169.122" dyno=web.5 connect=1ms service=4ms status=304 bytes=227 protocol=https
+2021-01-06T16:08:51.681638+00:00 app[web.4]: Started GET "/invitations" for 151.165.212.93 at 2021-01-06 16:08:51 +0000
+2021-01-06T16:08:51.718741+00:00 app[web.4]: Processing by InvitationsController#index as HTML
+2021-01-06T16:08:52.455858+00:00 app[web.3]: Completed 200 OK in 1507ms (Views: 1165.4ms | ActiveRecord: 249.2ms)
+2021-01-06T16:08:52.528814+00:00 heroku[router]: at=info method=GET path="/billing/recurring_billings/131618" host=tigerrockcamphill.classic.kicksite.net request_id=88d887d1-646f-499c-b4d7-91bc2b339083 fwd="73.187.209.79" dyno=web.3 connect=0ms service=1625ms status=200 bytes=10432 protocol=https
+2021-01-06T16:08:52.895110+00:00 heroku[router]: at=info method=GET path="/invitations" host=blackeagle.classic.kicksite.net request_id=5bb53f9b-bb75-44ae-90ac-16a5357304d7 fwd="151.165.212.93" dyno=web.4 connect=1ms service=1217ms status=200 bytes=9584 protocol=https
+2021-01-06T16:08:52.858207+00:00 app[web.4]: Completed 200 OK in 1139ms (Views: 919.6ms | ActiveRecord: 150.3ms)
+2021-01-06T16:08:53.043407+00:00 heroku[router]: at=info method=GET path="/assets/generic.gif" host=assets.classic.kicksite.net request_id=7249bd6e-cafa-4561-9a5f-0d3a24d00d1b fwd="151.165.212.93" dyno=web.2 connect=0ms service=73ms status=304 bytes=380 protocol=https
+2021-01-06T16:08:53.883334+00:00 app[web.1]: Started GET "/testing_requirements" for 147.253.242.138 at 2021-01-06 16:08:53 +0000
+2021-01-06T16:08:53.892280+00:00 app[web.1]: Processing by TestingRequirementsController#index as HTML
+2021-01-06T16:08:55.532388+00:00 heroku[router]: at=info method=GET path="/testing_requirements" host=g1martialarts.classic.kicksite.net request_id=59a8c43e-94d2-4466-83cb-6943e6b5c18c fwd="147.253.242.138" dyno=web.1 connect=1ms service=1652ms status=200 bytes=12420 protocol=https
+2021-01-06T16:08:55.455378+00:00 app[web.5]: Started GET "/" for 50.79.91.30 at 2021-01-06 16:08:55 +0000
+2021-01-06T16:08:55.483832+00:00 app[web.5]: Processing by DashboardsController#show as HTML
+2021-01-06T16:08:55.489539+00:00 app[web.7]: Started GET "/okcomputer/recurring_billing" for 35.173.69.86 at 2021-01-06 16:08:55 +0000
+2021-01-06T16:08:55.496341+00:00 app[web.7]: Processing by OkComputer::OkComputerController#show as */*
+2021-01-06T16:08:55.497494+00:00 app[web.7]: Parameters: {"subdomain"=>"status.classic", "check"=>"[FILTERED]"}
+2021-01-06T16:08:55.505735+00:00 app[web.1]: Completed 200 OK in 1609ms (Views: 964.1ms | ActiveRecord: 622.6ms)
+2021-01-06T16:08:55.795573+00:00 app[web.6]: Started GET "/students/1138300" for 68.113.167.155 at 2021-01-06 16:08:55 +0000
+2021-01-06T16:08:55.800484+00:00 app[web.6]: Processing by StudentsController#show as HTML
+2021-01-06T16:08:55.800542+00:00 app[web.6]: Parameters: {"id"=>"1138300"}
+2021-01-06T16:08:55.894873+00:00 app[web.6]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:55.903128+00:00 app[web.6]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:08:55.993652+00:00 app[web.5]: Completed 200 OK in 500ms (Views: 260.2ms | ActiveRecord: 160.5ms)
+2021-01-06T16:08:56.138259+00:00 heroku[router]: at=info method=POST path="/invitations/320411" host=blackeagle.classic.kicksite.net request_id=b77a218c-3780-4177-b3c0-318a4f604594 fwd="151.165.212.93" dyno=web.2 connect=1ms service=65ms status=302 bytes=1498 protocol=https
+2021-01-06T16:08:56.076679+00:00 app[web.2]: Started DELETE "/invitations/320411" for 151.165.212.93 at 2021-01-06 16:08:56 +0000
+2021-01-06T16:08:56.083874+00:00 app[web.2]: Processing by InvitationsController#destroy as HTML
+2021-01-06T16:08:56.083948+00:00 app[web.2]: Parameters: {"authenticity_token"=>"vl1pufIDJINHp/3Rycp9O6X5ongUnxZua0wdYnmtEF5Qj04E6GgsStKgTYVPOO8JLISx1PMf8dLafeyFCm0sDw==", "id"=>"320411"}
+2021-01-06T16:08:56.127724+00:00 app[web.2]: Redirected to https://blackeagle.kicksite.net//invitations
+2021-01-06T16:08:56.128217+00:00 app[web.2]: Completed 302 Found in 44ms (ActiveRecord: 18.9ms)
+2021-01-06T16:08:56.023329+00:00 heroku[router]: at=info method=GET path="/" host=middleburgma.classic.kicksite.net request_id=84546809-84e1-4ad7-b751-a005d1604b7f fwd="50.79.91.30" dyno=web.5 connect=50ms service=571ms status=200 bytes=10527 protocol=https
+2021-01-06T16:08:56.511802+00:00 app[web.8]: Started GET "/dashboard/expiring?threshold_1=30&threshold_2=3" for 50.79.91.30 at 2021-01-06 16:08:56 +0000
+2021-01-06T16:08:56.521599+00:00 app[web.8]: Processing by DashboardsController#expiring as JS
+2021-01-06T16:08:56.521636+00:00 app[web.8]: Parameters: {"threshold_1"=>"30", "threshold_2"=>"3"}
+2021-01-06T16:08:56.617945+00:00 app[web.8]: Completed 200 OK in 95ms (Views: 7.6ms | ActiveRecord: 53.8ms)
+2021-01-06T16:08:56.663707+00:00 heroku[router]: at=info method=GET path="/dashboard/absent?threshold_1=5" host=middleburgma.classic.kicksite.net request_id=a300087a-54b5-4e80-bdaa-9ae272baf00f fwd="50.79.91.30" dyno=web.1 connect=7ms service=143ms status=304 bytes=804 protocol=https
+2021-01-06T16:08:56.523582+00:00 app[web.1]: Started GET "/dashboard/absent?threshold_1=5" for 50.79.91.30 at 2021-01-06 16:08:56 +0000
+--
+2021-01-06T16:10:43.037532+00:00 heroku[router]: at=info method=GET path="/okcomputer/delayed_job" host=status.classic.kicksite.net request_id=10c5dbac-204e-4665-9a90-19ed68c6d6ee fwd="35.173.69.86" dyno=web.7 connect=1ms service=48ms status=500 bytes=529 protocol=https
+2021-01-06T16:10:44.567503+00:00 heroku[router]: at=info method=GET path="/okcomputer/recurring_billing" host=status.classic.kicksite.net request_id=46291128-6834-4d06-8230-fa886f25b9e4 fwd="35.173.69.86" dyno=web.8 connect=1ms service=1517ms status=200 bytes=566 protocol=https
+2021-01-06T16:10:44.599794+00:00 heroku[router]: at=info method=GET path="/okcomputer/delayed_job" host=status.classic.kicksite.net request_id=045bdefe-a2e0-45af-993c-3abca1d58782 fwd="52.42.49.200" dyno=web.8 connect=1ms service=897ms status=500 bytes=529 protocol=https
+2021-01-06T16:10:44.563572+00:00 app[web.8]: Completed 200 OK in 1503ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+2021-01-06T16:10:44.567376+00:00 app[web.8]: Started GET "/okcomputer/delayed_job" for 52.42.49.200 at 2021-01-06 16:10:44 +0000
+2021-01-06T16:10:44.574042+00:00 app[web.8]: Processing by OkComputer::OkComputerController#show as */*
+2021-01-06T16:10:44.574096+00:00 app[web.8]: Parameters: {"subdomain"=>"status.classic", "check"=>"[FILTERED]"}
+2021-01-06T16:10:44.594706+00:00 app[web.8]: Completed 500 Internal Server Error in 20ms (Views: 0.7ms | ActiveRecord: 17.2ms)
+2021-01-06T16:10:44.600069+00:00 app[web.8]: Started GET "/prospects/1807285" for 75.67.41.58 at 2021-01-06 16:10:44 +0000
+2021-01-06T16:10:44.605770+00:00 app[web.8]: Processing by ProspectsController#show as HTML
+2021-01-06T16:10:44.605838+00:00 app[web.8]: Parameters: {"id"=>"1807285"}
+2021-01-06T16:10:44.795651+00:00 app[web.5]: Started POST "/payments" for 173.20.205.117 at 2021-01-06 16:10:44 +0000
+2021-01-06T16:10:44.811547+00:00 app[web.5]: Processing by PaymentsController#create as JS
+2021-01-06T16:10:44.811733+00:00 app[web.5]: Parameters: {"utf8"=>"✓", "payment"=>{"payable_id"=>"1070970", "payable_type"=>"Person", "date(2i)"=>"1", "date(3i)"=>"6", "date(1i)"=>"2021", "payment_reason_id"=>"15934", "payment_method_id"=>"15939", "check_number"=>"[FILTERED]", "amount"=>"100", "notes"=>""}, "commit"=>"Record a Payment", "authenticity_token"=>"eFhI3Bk+3OsGDUnrdwyOZq8fXuivjgowQLKw3nllDGwAfJPwrxJEuuNGW9d46yXq1K8Uh+MQeFT5R2YXbrkwYA=="}
+2021-01-06T16:10:44.960037+00:00 app[web.8]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:10:44.993848+00:00 app[web.8]: Completed 200 OK in 388ms (Views: 114.0ms | ActiveRecord: 250.4ms)
+2021-01-06T16:10:45.003664+00:00 heroku[router]: at=info method=GET path="/prospects/1807285" host=nska.classic.kicksite.net request_id=4fb42582-ead9-4db5-96ac-515e85e7cf68 fwd="75.67.41.58" dyno=web.8 connect=0ms service=1174ms status=200 bytes=12727 protocol=https
+2021-01-06T16:10:45.493939+00:00 heroku[router]: at=info method=POST path="/payments" host=wheelesyoshukai.classic.kicksite.net request_id=83581218-3aa4-4daf-bccd-2c1d5c01dd1d fwd="173.20.205.117" dyno=web.5 connect=1ms service=704ms status=200 bytes=2024 protocol=https
+2021-01-06T16:10:45.359885+00:00 heroku[router]: at=info method=GET path="/assets/generic_big.gif" host=assets.classic.kicksite.net request_id=bfbd9c04-c99d-4e44-a69f-9ab3cd92eded fwd="75.67.41.58" dyno=web.8 connect=1ms service=13ms status=304 bytes=380 protocol=https
+2021-01-06T16:10:45.480068+00:00 app[web.5]: Completed 200 OK in 668ms (Views: 18.6ms | ActiveRecord: 137.4ms)
+2021-01-06T16:10:45.835616+00:00 app[web.5]: Started GET "/students/442086" for 72.131.11.202 at 2021-01-06 16:10:45 +0000
+2021-01-06T16:10:45.871546+00:00 app[web.5]: Processing by StudentsController#show as HTML
+2021-01-06T16:10:45.871661+00:00 app[web.5]: Parameters: {"id"=>"442086"}
+2021-01-06T16:10:46.180171+00:00 heroku[router]: at=info method=GET path="/students/active" host=mastersjiujitsu.classic.kicksite.net request_id=7ea82816-2961-4fd2-a3e7-7e812784944a fwd="99.101.235.11" dyno=web.1 connect=1ms service=43ms status=302 bytes=1020 protocol=https
+2021-01-06T16:10:46.134413+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:10:46.193186+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:10:46.228774+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:10:46.262083+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:10:46.321882+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:10:46.138421+00:00 app[web.1]: Started GET "/students/active" for 99.101.235.11 at 2021-01-06 16:10:46 +0000
+2021-01-06T16:10:46.151762+00:00 app[web.1]: Processing by StudentsController#active as HTML
+2021-01-06T16:10:46.165258+00:00 app[web.1]: Redirected to https://mastersjiujitsu.kicksite.net/login
+2021-01-06T16:10:46.165832+00:00 app[web.1]: Filter chain halted as :login_required rendered or redirected
+2021-01-06T16:10:46.166265+00:00 app[web.1]: Completed 302 Found in 12ms (ActiveRecord: 4.7ms)
+2021-01-06T16:10:46.344608+00:00 app[web.2]: Started POST "/tasks" for 172.58.156.114 at 2021-01-06 16:10:46 +0000
+2021-01-06T16:10:46.365742+00:00 app[web.2]: Processing by TasksController#create as JS
+2021-01-06T16:10:46.366006+00:00 app[web.2]: Parameters: {"utf8"=>"✓", "user_task"=>{"subject_id"=>"1807284", "subject_type"=>"Prospect", "subject_name"=>"Armando Rivas", "show_only_subject_tasks"=>"1", "body"=>"lead/fu", "frame"=>"tomorrow", "due_at"=>{"date"=>"2021-01-07", "hour"=>"09", "minute"=>"00", "am_pm"=>"am"}, "owner_id"=>"954166", "task_category_id"=>"31630", "public"=>"1"}, "commit"=>"Add this task", "authenticity_token"=>"Vx+2vADsbhw9JfY/f15MdidTaMEFrxJtjrcu1f4sIDhneF9xUKYxFs7z82bRoKL4dEGXxuS57c+8KiiPVsp9vw=="}
+2021-01-06T16:10:46.455008+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:10:46.498865+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:10:46.781680+00:00 app[web.4]: Started GET "/prospects/1799205" for 82.0.186.185 at 2021-01-06 16:10:46 +0000
+2021-01-06T16:10:46.787246+00:00 app[web.4]: Processing by ProspectsController#show as HTML
+2021-01-06T16:10:46.787298+00:00 app[web.4]: Parameters: {"id"=>"1799205"}
+2021-01-06T16:10:47.001070+00:00 app[worker.9]: [Worker(host:84c47fc5-5a52-46b1-9e5e-4f9111013215 pid:4)] Job NotifierMailer.task_assigned_notification (id=122539582) RUNNING
+2021-01-06T16:10:47.001087+00:00 app[worker.9]: 2021-01-06T16:10:47+0000: [Worker(host:84c47fc5-5a52-46b1-9e5e-4f9111013215 pid:4)] Job NotifierMailer.task_assigned_notification (id=122539582) RUNNING
+2021-01-06T16:10:47.310633+00:00 app[worker.9]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:10:47.399690+00:00 app[web.4]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:10:47.486746+00:00 app[web.4]: Completed 200 OK in 699ms (Views: 213.0ms | ActiveRecord: 443.8ms)
+2021-01-06T16:10:47.507939+00:00 heroku[router]: at=info method=GET path="/prospects/1799205" host=dojovanrel.classic.kicksite.net request_id=c8365bd6-fc94-468b-8353-7c258fb3d2e4 fwd="82.0.186.185" dyno=web.4 connect=0ms service=727ms status=200 bytes=12382 protocol=https
+2021-01-06T16:10:47.855859+00:00 app[worker.9]: 
+2021-01-06T16:10:47.855905+00:00 app[worker.9]: Sent mail to mrsbsdavis13@gmail.com, mrsbsdavis13@yahoo.com (531.0ms)
+2021-01-06T16:10:47.868403+00:00 app[worker.9]: [Worker(host:84c47fc5-5a52-46b1-9e5e-4f9111013215 pid:4)] Job NotifierMailer.task_assigned_notification (id=122539582) COMPLETED after 0.8666
+2021-01-06T16:10:47.868409+00:00 app[worker.9]: 2021-01-06T16:10:47+0000: [Worker(host:84c47fc5-5a52-46b1-9e5e-4f9111013215 pid:4)] Job NotifierMailer.task_assigned_notification (id=122539582) COMPLETED after 0.8666
+2021-01-06T16:10:47.900390+00:00 app[worker.9]: [Worker(host:84c47fc5-5a52-46b1-9e5e-4f9111013215 pid:4)] 1 jobs processed at 0.7665 j/s, 0 failed
+--
+2021-01-06T16:13:00.198021+00:00 heroku[router]: at=info method=POST path="/administrators/1611815" host=graciebarrapueblo.classic.kicksite.net request_id=8a28fe9c-68b7-4b20-9e6b-9ea1018c3651 fwd="136.35.188.35" dyno=web.3 connect=0ms service=759ms status=500 bytes=2014 protocol=https
+2021-01-06T16:13:00.163565+00:00 heroku[router]: at=info method=POST path="/prospects" host=nska.classic.kicksite.net request_id=6a24cc13-3564-4f45-b6af-94e2467e1575 fwd="75.67.41.58" dyno=web.7 connect=10ms service=870ms status=302 bytes=1554 protocol=https
+2021-01-06T16:13:00.152721+00:00 app[web.4]: Started GET "/students/1508723" for 74.134.19.117 at 2021-01-06 16:13:00 +0000
+2021-01-06T16:13:00.163569+00:00 app[web.4]: Processing by StudentsController#show as HTML
+2021-01-06T16:13:00.163650+00:00 app[web.4]: Parameters: {"id"=>"1508723"}
+2021-01-06T16:13:00.169906+00:00 app[web.3]: 
+2021-01-06T16:13:00.169920+00:00 app[web.3]: RuntimeError (Password does not match password confirmation):
+2021-01-06T16:13:00.169920+00:00 app[web.3]: app/models/user.rb:167:in `password_confirmation='
+2021-01-06T16:13:00.169921+00:00 app[web.3]: app/controllers/administrators_controller.rb:9:in `update'
+2021-01-06T16:13:00.169921+00:00 app[web.3]: 
+2021-01-06T16:13:00.169921+00:00 app[web.3]: 
+2021-01-06T16:13:00.193216+00:00 app[web.8]: Redirected to https://pc.kicksite.net/prospects/1807289
+2021-01-06T16:13:00.193373+00:00 app[web.8]: Completed 302 Found in 675ms (ActiveRecord: 88.7ms)
+2021-01-06T16:13:00.195480+00:00 app[web.8]: /app/vendor/bundle/ruby/2.4.0/gems/httpclient-2.5.3.3/lib/httpclient/session.rb:762:in `connect': Object#timeout is deprecated, use Timeout.timeout instead.
+2021-01-06T16:13:00.232744+00:00 app[web.8]: /app/vendor/bundle/ruby/2.4.0/gems/httpclient-2.5.3.3/lib/httpclient/session.rb:624:in `query': Object#timeout is deprecated, use Timeout.timeout instead.
+2021-01-06T16:13:00.233253+00:00 app[web.8]: /app/vendor/bundle/ruby/2.4.0/gems/httpclient-2.5.3.3/lib/httpclient/session.rb:888:in `parse_header': Object#timeout is deprecated, use Timeout.timeout instead.
+2021-01-06T16:13:00.276134+00:00 app[web.8]: /app/vendor/bundle/ruby/2.4.0/gems/httpclient-2.5.3.3/lib/httpclient/session.rb:762:in `connect': Object#timeout is deprecated, use Timeout.timeout instead.
+2021-01-06T16:13:00.287405+00:00 app[web.8]: /app/vendor/bundle/ruby/2.4.0/gems/httpclient-2.5.3.3/lib/httpclient/session.rb:624:in `query': Object#timeout is deprecated, use Timeout.timeout instead.
+2021-01-06T16:13:00.287931+00:00 app[web.8]: /app/vendor/bundle/ruby/2.4.0/gems/httpclient-2.5.3.3/lib/httpclient/session.rb:888:in `parse_header': Object#timeout is deprecated, use Timeout.timeout instead.
+2021-01-06T16:13:00.352245+00:00 app[web.8]: /app/vendor/bundle/ruby/2.4.0/gems/httpclient-2.5.3.3/lib/httpclient/session.rb:966:in `read_body_length': Object#timeout is deprecated, use Timeout.timeout instead.
+2021-01-06T16:13:00.367314+00:00 heroku[router]: at=info method=POST path="/prospects" host=pc.classic.kicksite.net request_id=2db18dbf-6d40-4e0e-8e04-df7a4bd02953 fwd="50.81.169.11" dyno=web.8 connect=1ms service=1276ms status=302 bytes=1339 protocol=https
+2021-01-06T16:12:59.198563+00:00 heroku[router]: at=info method=GET path="/assets/generic_big.gif" host=assets.classic.kicksite.net request_id=6a8486b5-22c3-4fa7-b65d-fcfd56b58df9 fwd="68.193.211.135" dyno=web.6 connect=1ms service=66ms status=304 bytes=380 protocol=https
+2021-01-06T16:13:00.425470+00:00 app[web.4]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:13:00.447221+00:00 app[web.4]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:13:00.464050+00:00 app[web.4]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:13:00.773024+00:00 app[web.8]: Started PATCH "/manage_subscriptions/fH+qbFKzoCFMhHYS4ruC2ckQDkY" for 99.16.97.58 at 2021-01-06 16:13:00 +0000
+2021-01-06T16:13:00.778416+00:00 app[web.8]: Processing by ManageSubscriptionsController#update as HTML
+2021-01-06T16:13:00.778465+00:00 app[web.8]: Parameters: {"utf8"=>"✓", "authenticity_token"=>"oE552jkEKVlc3t19vWjnBQnbXSV3gOtb8WWhc9sFy5BAzFn0Ydpj2uT8kbvSvsUz4nAZicpcv7oAEGIu9eQbLQ==", "commit"=>"Save", "id"=>"fH+qbFKzoCFMhHYS4ruC2ckQDkY"}
+2021-01-06T16:13:01.151251+00:00 app[web.6]: Completed 200 OK in 1587ms (Views: 787.3ms | ActiveRecord: 778.7ms)
+2021-01-06T16:13:01.169300+00:00 app[scheduler.2037]: ** [NewRelic][2021-01-06 16:13:01 +0000 scheduler.* (4)] INFO : Reporting to: https://rpm.newrelic.com/accounts/2855708/applications/655842467
+2021-01-06T16:13:01.199090+00:00 app[worker.8]: [Worker(host:45445eba-663e-4a21-abc8-a73cbf6c2924 pid:4)] Job Address#force_geocode (id=122540165) RUNNING
+2021-01-06T16:13:01.199341+00:00 app[worker.8]: 2021-01-06T16:13:01+0000: [Worker(host:45445eba-663e-4a21-abc8-a73cbf6c2924 pid:4)] Job Address#force_geocode (id=122540165) RUNNING
+2021-01-06T16:13:01.194014+00:00 heroku[router]: at=info method=PUT path="/tasks/156784/complete" host=macsantcugat.classic.kicksite.net request_id=71c14fa1-f1fd-4b33-bbaf-12228274bee3 fwd="95.169.224.10" dyno=web.6 connect=1ms service=1646ms status=200 bytes=8698 protocol=https
+2021-01-06T16:13:01.608536+00:00 app[web.2]: Started GET "/tasks" for 172.58.156.114 at 2021-01-06 16:13:01 +0000
+2021-01-06T16:13:01.620311+00:00 app[web.2]: Processing by TasksController#index as HTML
+2021-01-06T16:13:01.726198+00:00 heroku[router]: at=info method=GET path="/static-assets/logo/primary.png" host=graciebarrapueblo.classic.kicksite.net request_id=852d659c-112a-41d5-8a9d-43d02ddbae57 fwd="136.35.188.35" dyno=web.4 connect=0ms service=1277ms status=404 bytes=1408 protocol=https
+2021-01-06T16:13:01.645681+00:00 app[web.5]: Started GET "/prospects/1807288" for 75.67.41.58 at 2021-01-06 16:13:01 +0000
+2021-01-06T16:13:01.672678+00:00 app[web.5]: Processing by ProspectsController#show as HTML
+2021-01-06T16:13:01.681356+00:00 app[web.5]: Parameters: {"id"=>"1807288"}
+2021-01-06T16:13:01.644805+00:00 app[web.4]: Completed 200 OK in 1481ms (Views: 456.3ms | ActiveRecord: 932.5ms)
+2021-01-06T16:13:01.669978+00:00 app[web.4]: Started GET "/static-assets/logo/primary.png" for 136.35.188.35 at 2021-01-06 16:13:01 +0000
+2021-01-06T16:13:01.700801+00:00 app[web.4]: 
+2021-01-06T16:13:01.700804+00:00 app[web.4]: ActionController::RoutingError (No route matches [GET] "/static-assets/logo/primary.png"):
+2021-01-06T16:13:01.700816+00:00 app[web.4]: vendor/bundle/ruby/2.4.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2021-01-06T16:13:01.700817+00:00 app[web.4]: vendor/bundle/ruby/2.4.0/gems/newrelic_rpm-6.12.0.367/lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+2021-01-06T16:13:01.700817+00:00 app[web.4]: vendor/bundle/ruby/2.4.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2021-01-06T16:13:01.700818+00:00 app[web.4]: vendor/bundle/ruby/2.4.0/gems/newrelic_rpm-6.12.0.367/lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+2021-01-06T16:13:01.700818+00:00 app[web.4]: vendor/bundle/ruby/2.4.0/gems/chewy-5.0.0/lib/chewy/railtie.rb:19:in `block in call'
+2021-01-06T16:13:01.700819+00:00 app[web.4]: vendor/bundle/ruby/2.4.0/gems/chewy-5.0.0/lib/chewy/strategy.rb:70:in `wrap'
+2021-01-06T16:13:01.700819+00:00 app[web.4]: vendor/bundle/ruby/2.4.0/gems/chewy-5.0.0/lib/chewy.rb:201:in `strategy'
+2021-01-06T16:13:01.700823+00:00 app[web.4]: vendor/bundle/ruby/2.4.0/gems/chewy-5.0.0/lib/chewy/railtie.rb:19:in `call'
+--
+2021-01-06T16:29:05.808883+00:00 heroku[router]: at=info method=POST path="/attendances/bulk_update" host=tigerrockoakgrove.classic.kicksite.net request_id=8ed1b570-a06c-4a6e-a23f-0494f0f67f97 fwd="69.247.122.183" dyno=web.6 connect=1ms service=744ms status=500 bytes=2014 protocol=https
+2021-01-06T16:29:05.792602+00:00 app[web.6]: 
+2021-01-06T16:29:05.792612+00:00 app[web.6]: ActionView::Template::Error (missing attribute: date):
+2021-01-06T16:29:05.792613+00:00 app[web.6]: 2:   %td.checkbox
+2021-01-06T16:29:05.792614+00:00 app[web.6]: 3:     %input{:type => "checkbox", :value => attendance.id, :name => 'attendance_ids'}
+2021-01-06T16:29:05.792615+00:00 app[web.6]: 4:   %td
+2021-01-06T16:29:05.792615+00:00 app[web.6]: 5:     = attendance.date.strftime("%a, %b %e")
+2021-01-06T16:29:05.792616+00:00 app[web.6]: 6:     - unless attendance.date.year == Date.today.year
+2021-01-06T16:29:05.792617+00:00 app[web.6]: 7:       = attendance.date.strftime("%Y")
+2021-01-06T16:29:05.792617+00:00 app[web.6]: 8:     = attendance.checkin.strftime("%l:%M %p")
+2021-01-06T16:29:05.792618+00:00 app[web.6]: app/views/student_attendances/_attendance.html.haml:5:in `_app_views_student_attendances__attendance_html_haml__76550868944170605_188330560'
+2021-01-06T16:29:05.792619+00:00 app[web.6]: app/views/attendances/_bulk_update.js.haml:2:in `block in _app_views_attendances__bulk_update_js_haml__538035761100833777_188360960'
+2021-01-06T16:29:05.792619+00:00 app[web.6]: app/views/attendances/_bulk_update.js.haml:1:in `each'
+2021-01-06T16:29:05.792620+00:00 app[web.6]: app/views/attendances/_bulk_update.js.haml:1:in `_app_views_attendances__bulk_update_js_haml__538035761100833777_188360960'
+2021-01-06T16:29:05.792621+00:00 app[web.6]: app/controllers/attendances_controller.rb:304:in `bulk_update'
+2021-01-06T16:29:05.792622+00:00 app[web.6]: 
+2021-01-06T16:29:05.792622+00:00 app[web.6]: 
+2021-01-06T16:29:06.083016+00:00 app[web.2]: Started GET "/student_view/dashboard" for 76.76.71.17 at 2021-01-06 16:29:06 +0000
+2021-01-06T16:29:06.092455+00:00 app[web.2]: Processing by StudentView::DashboardsController#show as HTML
+2021-01-06T16:29:06.152486+00:00 app[web.5]: Started GET "/student_view/billing/vaults/278637" for 47.20.134.50 at 2021-01-06 16:29:06 +0000
+2021-01-06T16:29:06.156285+00:00 app[web.5]: Processing by StudentView::Billing::VaultsController#show as HTML
+2021-01-06T16:29:06.156313+00:00 app[web.5]: Parameters: {"id"=>"278637"}
+2021-01-06T16:29:06.229666+00:00 app[web.5]: Completed 200 OK in 73ms (Views: 10.8ms | ActiveRecord: 43.6ms)
+2021-01-06T16:29:06.235872+00:00 heroku[router]: at=info method=GET path="/student_view/billing/vaults/278637" host=fastkix.classic.kicksite.net request_id=02719a68-f86c-4b61-91e4-c63a0542d273 fwd="47.20.134.50" dyno=web.5 connect=1ms service=88ms status=200 bytes=7534 protocol=https
+2021-01-06T16:29:06.442450+00:00 heroku[router]: at=info method=GET path="/student_view/dashboard" host=inspirebjj.classic.kicksite.net request_id=f4d8e5fe-7753-4c93-83a3-faa447d35a2d fwd="76.76.71.17" dyno=web.2 connect=1ms service=363ms status=200 bytes=8208 protocol=https
+2021-01-06T16:29:06.403570+00:00 app[web.2]: Completed 200 OK in 311ms (Views: 127.1ms | ActiveRecord: 66.5ms)
+2021-01-06T16:29:06.741496+00:00 heroku[router]: at=info method=GET path="/assets/page_white_acrobat-27420ea72e036ea1511bf0a0a4b263a02a2bf52ecd0e297c05ea1d50e7bb218a.png" host=assets.classic.kicksite.net request_id=2a6f02ff-4edf-4a08-93da-ce4baa0b257e fwd="76.76.71.17" dyno=web.5 connect=0ms service=3ms status=200 bytes=872 protocol=https
+2021-01-06T16:29:06.819394+00:00 heroku[router]: at=info method=GET path="/assets/generic_big.gif" host=assets.classic.kicksite.net request_id=b05e4c22-8bcb-4045-b5e2-99b41cfdc9ea fwd="76.76.71.17" dyno=web.8 connect=1ms service=10ms status=200 bytes=4367 protocol=https
+2021-01-06T16:29:07.396342+00:00 app[web.7]: Started POST "/attendances/bulk_create" for 100.11.160.182 at 2021-01-06 16:29:07 +0000
+2021-01-06T16:29:07.404104+00:00 app[web.7]: Processing by AttendancesController#bulk_create as JSON
+2021-01-06T16:29:07.404147+00:00 app[web.7]: Parameters: {"student_id"=>"1286984", "program_id"=>"24812", "remaining_checkins"=>"[FILTERED]", "attendance_limit_for_program"=>"1", "authenticity_token"=>"gY4zfjF4Lmfs4y83LM0djYBRE8W75waN/EzfRJbSgcZhfnZw2uVQZiBe46m1IcR3rFPY49t4h/8Zyk8bsMetYw=="}
+2021-01-06T16:29:07.465502+00:00 app[web.7]: Completed 200 OK in 61ms (Views: 0.2ms | ActiveRecord: 24.5ms)
+2021-01-06T16:29:07.470921+00:00 heroku[router]: at=info method=POST path="/attendances/bulk_create" host=spearjiujitsu.classic.kicksite.net request_id=6f6d8b85-8a1f-405d-9469-20f6939608a2 fwd="100.11.160.182" dyno=web.7 connect=1ms service=77ms status=200 bytes=1313 protocol=https
+2021-01-06T16:29:09.769213+00:00 app[web.5]: Started GET "/student_view/billing/vaults/278642" for 47.20.134.50 at 2021-01-06 16:29:09 +0000
+2021-01-06T16:29:09.774015+00:00 app[web.5]: Processing by StudentView::Billing::VaultsController#show as HTML
+2021-01-06T16:29:09.774133+00:00 app[web.5]: Parameters: {"id"=>"278642"}
+2021-01-06T16:29:09.887269+00:00 app[web.5]: Completed 200 OK in 113ms (Views: 27.1ms | ActiveRecord: 65.1ms)
+2021-01-06T16:29:09.896489+00:00 heroku[router]: at=info method=GET path="/student_view/billing/vaults/278642" host=fastkix.classic.kicksite.net request_id=e7808cc1-cb47-4225-8974-3582e88a8e59 fwd="47.20.134.50" dyno=web.5 connect=1ms service=131ms status=200 bytes=7526 protocol=https
+2021-01-06T16:29:11.405109+00:00 app[web.8]: Started GET "/students/active" for 69.247.122.183 at 2021-01-06 16:29:11 +0000
+2021-01-06T16:29:11.410587+00:00 app[web.8]: Processing by StudentsController#active as HTML
+2021-01-06T16:29:11.515886+00:00 app[web.8]: Completed 200 OK in 105ms (Views: 60.2ms | ActiveRecord: 30.8ms)
+2021-01-06T16:29:11.524317+00:00 heroku[router]: at=info method=GET path="/students/active" host=tigerrockoakgrove.classic.kicksite.net request_id=d0eaa66b-1aa9-42f7-8ef6-5b0bb51e0ee5 fwd="69.247.122.183" dyno=web.8 connect=0ms service=123ms status=200 bytes=8938 protocol=https
+2021-01-06T16:29:11.947996+00:00 app[web.3]: Started GET "/students/active.js" for 69.247.122.183 at 2021-01-06 16:29:11 +0000
+2021-01-06T16:29:11.959869+00:00 app[web.3]: Processing by StudentsController#active as JS
+2021-01-06T16:29:13.680009+00:00 app[web.9]: Started GET "/students/1310512/edit" for 50.79.91.30 at 2021-01-06 16:29:13 +0000
+2021-01-06T16:29:13.707255+00:00 app[web.9]: Processing by StudentsController#edit as HTML
+2021-01-06T16:29:13.713659+00:00 app[web.9]: Parameters: {"id"=>"1310512"}
+2021-01-06T16:29:14.051436+00:00 app[web.2]: Started GET "/student_view/profile" for 76.76.71.17 at 2021-01-06 16:29:14 +0000
+2021-01-06T16:29:14.058283+00:00 app[web.2]: Processing by StudentView::ProfileController#index as HTML
+2021-01-06T16:29:14.377585+00:00 heroku[router]: at=info method=GET path="/students/1310512/edit" host=middleburgma.classic.kicksite.net request_id=8788ac99-273d-4cb0-9244-39d2738e9b01 fwd="50.79.91.30" dyno=web.9 connect=0ms service=700ms status=200 bytes=22307 protocol=https
+2021-01-06T16:29:14.355085+00:00 app[web.9]: Completed 200 OK in 641ms (Views: 347.6ms | ActiveRecord: 244.2ms)
+--
+2021-01-06T16:30:25.623585+00:00 heroku[router]: at=info method=POST path="/attendances/bulk_update" host=tigerrockoakgrove.classic.kicksite.net request_id=d00b59b5-05be-45bb-9b7c-4121452c69f8 fwd="69.247.122.183" dyno=web.1 connect=1ms service=1019ms status=500 bytes=2014 protocol=https
+2021-01-06T16:30:26.346875+00:00 heroku[router]: at=info method=GET path="/students/1719213/financing" host=sybf.classic.kicksite.net request_id=bc23d78e-3f60-4e93-92e8-6b9116775040 fwd="67.240.57.12" dyno=web.8 connect=1ms service=756ms status=200 bytes=12459 protocol=https
+2021-01-06T16:30:26.336304+00:00 app[web.8]: Completed 200 OK in 733ms (Views: 150.6ms | ActiveRecord: 561.7ms)
+2021-01-06T16:30:28.722266+00:00 app[web.6]: Started GET "/search?q=peter&limit=20&timestamp=1609950628645" for 172.13.3.243 at 2021-01-06 16:30:28 +0000
+2021-01-06T16:30:28.726695+00:00 app[web.6]: Processing by SearchController#search as JS
+2021-01-06T16:30:28.726743+00:00 app[web.6]: Parameters: {"q"=>"peter", "limit"=>"20", "timestamp"=>"1609950628645"}
+2021-01-06T16:30:28.774470+00:00 app[web.6]: Completed 200 OK in 48ms (Views: 6.5ms | ActiveRecord: 20.8ms)
+2021-01-06T16:30:28.775013+00:00 app[web.6]: ** [NewRelic][2021-01-06 16:30:28 +0000 web.6 (7)] WARN : Skipping RUM instrumentation. Unable to find <body> tag in first 50000 bytes of document.
+2021-01-06T16:30:28.786429+00:00 heroku[router]: at=info method=GET path="/search?q=peter&limit=20&timestamp=1609950628645" host=olathekarate.classic.kicksite.net request_id=d46cde9f-f946-473a-ab53-431cfc8a4db3 fwd="172.13.3.243" dyno=web.6 connect=1ms service=73ms status=200 bytes=1103 protocol=https
+2021-01-06T16:30:29.023986+00:00 app[web.8]: Started GET "/reporting/dashboard" for 76.92.196.135 at 2021-01-06 16:30:29 +0000
+2021-01-06T16:30:29.035692+00:00 app[web.8]: Processing by Reporting::DashboardController#show as HTML
+2021-01-06T16:30:29.498111+00:00 heroku[router]: at=info method=GET path="/reporting/dashboard" host=data2.classic.kicksite.net request_id=c5b3e1d9-360a-41a7-ba68-2145730f2cdf fwd="76.92.196.135" dyno=web.8 connect=1ms service=481ms status=200 bytes=10491 protocol=https
+2021-01-06T16:30:29.438387+00:00 app[web.4]: Started GET "/students/1719213/payments" for 67.240.57.12 at 2021-01-06 16:30:29 +0000
+2021-01-06T16:30:29.490329+00:00 app[web.4]: Processing by PersonPaymentsController#index as HTML
+2021-01-06T16:30:29.495238+00:00 app[web.4]: Parameters: {"student_id"=>"1719213"}
+2021-01-06T16:30:29.469387+00:00 app[web.8]: Completed 200 OK in 433ms (Views: 246.2ms | ActiveRecord: 172.5ms)
+2021-01-06T16:30:30.175302+00:00 heroku[router]: at=info method=GET path="/assets/js/growth_report-0862ebef8be583e260a83a433e01b07036f58617d9f3d359c7f2810737cc8d38.js" host=assets.classic.kicksite.net request_id=50232f92-0a4b-491f-9b48-85ca949f4395 fwd="76.92.196.135" dyno=web.6 connect=1ms service=4ms status=200 bytes=2817 protocol=https
+2021-01-06T16:30:30.172411+00:00 heroku[router]: at=info method=GET path="/assets/reporting-ca692c20fafed8e9c7cba34180bdc2cdacaa5cebdcb2de44204149063025cfd8.css" host=assets.classic.kicksite.net request_id=079cd368-8988-4d2c-a66d-bd5e69e760ee fwd="76.92.196.135" dyno=web.1 connect=1ms service=4ms status=200 bytes=472 protocol=https
+2021-01-06T16:30:30.183151+00:00 heroku[router]: at=info method=GET path="/assets/sass/ks_application_new-6db742188dede6d757c4c5d3798937b79b31dcb60c9f1e4142d677252c151d1c.css" host=assets.classic.kicksite.net request_id=fbb2b8ba-6025-4b75-8a5f-ae93b0754d29 fwd="76.92.196.135" dyno=web.1 connect=1ms service=12ms status=200 bytes=4231 protocol=https
+2021-01-06T16:30:30.175261+00:00 heroku[router]: at=info method=GET path="/assets/js/conversions_report-3a5c1252222474af682ca6d3631530af7889826c7bd2f1eb1724825660d34b3e.js" host=assets.classic.kicksite.net request_id=65fce25c-4610-42c3-af54-96f9a4349cd7 fwd="76.92.196.135" dyno=web.8 connect=1ms service=4ms status=200 bytes=2675 protocol=https
+2021-01-06T16:30:30.258626+00:00 heroku[router]: at=info method=GET path="/assets/js/revenue_report-c84d84cf47407a0f9fa3c13653b90e0481c1fc70b07edd2907e430ef22fe8b2d.js" host=assets.classic.kicksite.net request_id=1d8a8810-1aa7-461b-b8e7-b56191cd62cf fwd="76.92.196.135" dyno=web.3 connect=20ms service=67ms status=200 bytes=2303 protocol=https
+2021-01-06T16:30:30.462061+00:00 heroku[router]: at=info method=GET path="/assets/chart.min-be14c9d41b4056c3c5534b0774125c47bc065bf4fbdb6f6cd4784e3d9a6b275d.js" host=assets.classic.kicksite.net request_id=671e0853-f020-4f6e-a22b-40653af117ed fwd="76.92.196.135" dyno=web.3 connect=24ms service=43ms status=200 bytes=38760 protocol=https
+2021-01-06T16:30:30.317417+00:00 app[web.8]: Started GET "/students/1719213/payments" for 67.240.57.12 at 2021-01-06 16:30:30 +0000
+2021-01-06T16:30:30.323462+00:00 app[web.8]: Processing by PersonPaymentsController#index as HTML
+2021-01-06T16:30:30.323494+00:00 app[web.8]: Parameters: {"student_id"=>"1719213"}
+2021-01-06T16:30:30.415328+00:00 heroku[router]: at=info method=GET path="/assets/js/attendance_report-183f3e94b35e8b5a597b56b1ef364ca634e0a7281e205e40909da078cb8a00f4.js" host=assets.classic.kicksite.net request_id=2920820a-3a09-4889-9b1f-9a34cdd3f3ed fwd="76.92.196.135" dyno=web.2 connect=1ms service=21ms status=200 bytes=3170 protocol=https
+2021-01-06T16:30:30.440955+00:00 heroku[router]: at=info method=GET path="/assets/js/leads_report-e38fead2b0a83dfb69e12c76216a5590611f08db72df157111c90b8f6022700b.js" host=assets.classic.kicksite.net request_id=7fada622-670a-4d94-a939-7babfcefc987 fwd="76.92.196.135" dyno=web.3 connect=29ms service=18ms status=200 bytes=2354 protocol=https
+2021-01-06T16:30:30.553652+00:00 app[web.3]: Started GET "/communications" for 172.58.102.250 at 2021-01-06 16:30:30 +0000
+2021-01-06T16:30:30.588248+00:00 app[web.3]: Processing by Communications::DashboardsController#show as HTML
+2021-01-06T16:30:30.959371+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/students/1719213/payments" host=sybf.classic.kicksite.net request_id=ceebdb27-49ff-4a9c-86c8-5089d5717ce0 fwd="67.240.57.12" dyno=web.4 connect=2ms service=1523ms status=499 bytes= protocol=https
+2021-01-06T16:30:30.662810+00:00 app[web.1]: Started GET "/prospects/new" for 47.187.76.208 at 2021-01-06 16:30:30 +0000
+2021-01-06T16:30:30.678848+00:00 app[web.1]: Processing by ProspectsController#new as HTML
+2021-01-06T16:30:30.947942+00:00 app[web.4]: Completed 200 OK in 1452ms (Views: 666.5ms | ActiveRecord: 709.9ms)
+2021-01-06T16:30:30.969350+00:00 app[web.5]: Started GET "/students/89519" for 172.13.3.243 at 2021-01-06 16:30:30 +0000
+2021-01-06T16:30:30.975984+00:00 app[web.5]: Processing by StudentsController#show as HTML
+2021-01-06T16:30:30.976836+00:00 app[web.5]: Parameters: {"id"=>"89519"}
+2021-01-06T16:30:31.135117+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:30:31.147938+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:30:31.160509+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:30:31.172853+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:30:31.191150+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:30:31.199447+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:30:31.214490+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:30:31.078910+00:00 app[web.1]: #<#<Class:0x00007eff1c2dfa38>:0x000000000d681ac0>Completed 200 OK in 400ms (Views: 325.9ms | ActiveRecord: 47.1ms)
+2021-01-06T16:30:31.147963+00:00 heroku[router]: at=info method=GET path="/prospects/new" host=lewisvilleata.classic.kicksite.net request_id=125e98b5-5ab6-4d8d-a0b6-3eefe86e918a fwd="47.187.76.208" dyno=web.1 connect=1ms service=488ms status=200 bytes=22607 protocol=https
+2021-01-06T16:30:31.229698+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:30:31.243874+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:30:31.259470+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:30:31.269880+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:30:31.277073+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:30:31.285864+00:00 app[web.5]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+--
+2021-01-06T16:32:44.098357+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=POST path="/appointments" host=siouxcitytigerrock.classic.kicksite.net request_id=a8b5b630-9010-4ef8-965b-b73a115cd585 fwd="67.55.186.167" dyno=web.2 connect=2ms service=30002ms status=503 bytes=0 protocol=https
+2021-01-06T16:32:44.095030+00:00 app[web.5]: Started GET "/rank_statuses" for 50.79.91.30 at 2021-01-06 16:32:44 +0000
+2021-01-06T16:32:44.112233+00:00 app[web.5]: Processing by RankStatusesController#index as HTML
+2021-01-06T16:32:44.343094+00:00 app[web.5]: Completed 200 OK in 231ms (Views: 88.3ms | ActiveRecord: 104.9ms)
+2021-01-06T16:32:44.359944+00:00 heroku[router]: at=info method=GET path="/rank_statuses" host=middleburgma.classic.kicksite.net request_id=75fccbf3-8624-4e9d-ac73-ad17765ee046 fwd="50.79.91.30" dyno=web.5 connect=1ms service=278ms status=200 bytes=10251 protocol=https
+2021-01-06T16:32:44.437784+00:00 heroku[router]: at=info method=POST path="/students/349802/attendances" host=fulllifemartialarts.classic.kicksite.net request_id=ea122bb6-8af0-4166-bdb0-3c54c8a78ded fwd="24.1.95.232" dyno=web.5 connect=1ms service=346ms status=200 bytes=1604 protocol=https
+2021-01-06T16:32:44.350833+00:00 app[web.5]: Started POST "/students/349802/attendances" for 24.1.95.232 at 2021-01-06 16:32:44 +0000
+2021-01-06T16:32:44.361043+00:00 app[web.5]: Processing by StudentAttendancesController#create as JS
+2021-01-06T16:32:44.364987+00:00 app[web.5]: Parameters: {"utf8"=>"✓", "attendance"=>{"program_id"=>"13596", "rank_id"=>"186341", "date(2i)"=>"12", "date(3i)"=>"18", "date(1i)"=>"2020", "checkin(1i)"=>"[FILTERED]", "checkin(2i)"=>"[FILTERED]", "checkin(3i)"=>"[FILTERED]", "checkin(4i)"=>"[FILTERED]", "checkin(5i)"=>"[FILTERED]"}, "commit"=>"Add Attendance", "authenticity_token"=>"NAIoyi7luvcItlwEhSutS7EcOzpAyCy69fe9E+bm2i4fr+VSXv3AIhOXj3dqvMTdW/nJPW7EXpVPz2uk6nqr3w==", "student_id"=>"349802"}
+2021-01-06T16:32:44.432066+00:00 app[web.5]: Completed 200 OK in 67ms (Views: 2.5ms | ActiveRecord: 26.9ms)
+2021-01-06T16:32:44.588860+00:00 heroku[router]: at=info method=GET path="/assets/help-icon.png" host=assets.classic.kicksite.net request_id=f6cc1b10-f403-403d-a316-511910a187d6 fwd="50.79.91.30" dyno=web.5 connect=1ms service=17ms status=304 bytes=380 protocol=https
+2021-01-06T16:32:44.522633+00:00 app[mailer.1]: [Worker(host:083afe05-3c90-4854-96ea-eccf839c0589 pid:4)] Job GeneralAnnouncement.deliver_announcement (id=122540264) COMPLETED after 37.3047
+2021-01-06T16:32:44.522901+00:00 app[mailer.1]: 2021-01-06T16:32:44+0000: [Worker(host:083afe05-3c90-4854-96ea-eccf839c0589 pid:4)] Job GeneralAnnouncement.deliver_announcement (id=122540264) COMPLETED after 37.3047
+2021-01-06T16:32:44.710013+00:00 app[mailer.1]: [Worker(host:083afe05-3c90-4854-96ea-eccf839c0589 pid:4)] Job NotifierMailer.announcement (id=122540265) RUNNING
+2021-01-06T16:32:44.710183+00:00 app[mailer.1]: 2021-01-06T16:32:44+0000: [Worker(host:083afe05-3c90-4854-96ea-eccf839c0589 pid:4)] Job NotifierMailer.announcement (id=122540265) RUNNING
+2021-01-06T16:32:44.783132+00:00 app[mailer.1]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:32:45.069409+00:00 heroku[router]: at=info method=GET path="/ranks/32977" host=middleburgma.classic.kicksite.net request_id=5b6944cc-e6df-488a-9142-2901d7f65043 fwd="50.79.91.30" dyno=web.5 connect=1ms service=125ms status=304 bytes=804 protocol=https
+2021-01-06T16:32:44.930238+00:00 app[web.7]: Started GET "/ranks/10831" for 50.79.91.30 at 2021-01-06 16:32:44 +0000
+2021-01-06T16:32:44.943805+00:00 app[web.7]: Processing by RankStatusesController#program_stats as JS
+2021-01-06T16:32:44.944516+00:00 app[web.7]: Parameters: {"program_id"=>"10831"}
+2021-01-06T16:32:44.946928+00:00 app[web.6]: Started GET "/ranks/10088" for 50.79.91.30 at 2021-01-06 16:32:44 +0000
+2021-01-06T16:32:44.954767+00:00 app[web.6]: Processing by RankStatusesController#program_stats as JS
+2021-01-06T16:32:44.954842+00:00 app[web.6]: Parameters: {"program_id"=>"10088"}
+2021-01-06T16:32:44.946790+00:00 app[web.5]: Started GET "/ranks/32977" for 50.79.91.30 at 2021-01-06 16:32:44 +0000
+2021-01-06T16:32:44.951533+00:00 app[web.5]: Processing by RankStatusesController#program_stats as JS
+2021-01-06T16:32:44.951578+00:00 app[web.5]: Parameters: {"program_id"=>"32977"}
+2021-01-06T16:32:45.064373+00:00 app[web.5]: Completed 200 OK in 113ms (Views: 0.4ms | ActiveRecord: 36.0ms)
+2021-01-06T16:32:44.957870+00:00 app[web.1]: Started GET "/ranks/10113" for 50.79.91.30 at 2021-01-06 16:32:44 +0000
+2021-01-06T16:32:44.982095+00:00 app[web.1]: Processing by RankStatusesController#program_stats as JS
+2021-01-06T16:32:44.985442+00:00 app[web.1]: Parameters: {"program_id"=>"10113"}
+2021-01-06T16:32:45.155716+00:00 app[web.1]: Completed 200 OK in 170ms (Views: 0.7ms | ActiveRecord: 64.2ms)
+2021-01-06T16:32:44.958955+00:00 app[web.9]: Started GET "/ranks/10121" for 50.79.91.30 at 2021-01-06 16:32:44 +0000
+2021-01-06T16:32:44.968817+00:00 app[web.9]: Processing by RankStatusesController#program_stats as JS
+2021-01-06T16:32:44.974316+00:00 app[web.9]: Parameters: {"program_id"=>"10121"}
+2021-01-06T16:32:45.162053+00:00 heroku[router]: at=info method=GET path="/ranks/10113" host=middleburgma.classic.kicksite.net request_id=3e358bd9-f507-4761-b7a5-6f356f85d590 fwd="50.79.91.30" dyno=web.1 connect=0ms service=223ms status=200 bytes=1293 protocol=https
+2021-01-06T16:32:45.204807+00:00 app[mailer.1]: 
+2021-01-06T16:32:45.204826+00:00 app[mailer.1]: Sent mail to mom2kt1@verizon.net (367.0ms)
+2021-01-06T16:32:45.265066+00:00 app[mailer.1]: [Worker(host:083afe05-3c90-4854-96ea-eccf839c0589 pid:4)] Job NotifierMailer.announcement (id=122540265) COMPLETED after 0.5502
+2021-01-06T16:32:45.265811+00:00 app[mailer.1]: 2021-01-06T16:32:45+0000: [Worker(host:083afe05-3c90-4854-96ea-eccf839c0589 pid:4)] Job NotifierMailer.announcement (id=122540265) COMPLETED after 0.5502
+2021-01-06T16:32:45.375398+00:00 app[mailer.1]: [Worker(host:083afe05-3c90-4854-96ea-eccf839c0589 pid:4)] Job NotifierMailer.announcement (id=122540266) RUNNING
+2021-01-06T16:32:45.376199+00:00 app[mailer.1]: 2021-01-06T16:32:45+0000: [Worker(host:083afe05-3c90-4854-96ea-eccf839c0589 pid:4)] Job NotifierMailer.announcement (id=122540266) RUNNING
+2021-01-06T16:32:45.329831+00:00 app[web.1]: Started GET "/ranks/15206" for 50.79.91.30 at 2021-01-06 16:32:45 +0000
+2021-01-06T16:32:45.337719+00:00 app[web.1]: Processing by RankStatusesController#program_stats as JS
+2021-01-06T16:32:45.337811+00:00 app[web.1]: Parameters: {"program_id"=>"15206"}
+2021-01-06T16:32:45.451477+00:00 app[web.1]: Completed 200 OK in 113ms (Views: 0.5ms | ActiveRecord: 53.7ms)
+2021-01-06T16:32:45.466658+00:00 heroku[router]: at=info method=GET path="/ranks/15206" host=middleburgma.classic.kicksite.net request_id=f02805c8-39c0-4108-92a6-9b0741d6c8f6 fwd="50.79.91.30" dyno=web.1 connect=1ms service=136ms status=304 bytes=804 protocol=https
+2021-01-06T16:32:45.486993+00:00 app[mailer.1]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:32:45.745290+00:00 heroku[router]: at=info method=GET path="/ranks/10831" host=middleburgma.classic.kicksite.net request_id=c5137519-d974-490f-8a9b-bf0f5a14b082 fwd="50.79.91.30" dyno=web.7 connect=1ms service=818ms status=200 bytes=1392 protocol=https
+2021-01-06T16:32:45.731187+00:00 app[web.7]: Completed 200 OK in 786ms (Views: 0.9ms | ActiveRecord: 178.3ms)
+2021-01-06T16:32:45.772209+00:00 app[web.4]: Started GET "/calendar/exports.ics?user_credentials=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1OTA0OTEwMjIsInN1YiI6ODA0MTZ9.EcwuPDxv1kzyD5rmeu_9HDsbvaJ5fDCAv_yaTbZkuPg" for 104.136.147.163 at 2021-01-06 16:32:45 +0000
+2021-01-06T16:32:45.794751+00:00 app[web.4]: Processing by Calendar::ExportsController#index as ICS
+--
+2021-01-06T16:35:04.842098+00:00 heroku[router]: at=info method=POST path="/attendances/bulk_update" host=tigerrockoakgrove.classic.kicksite.net request_id=a565d7ec-7743-41e8-87cf-92e0f18d16f6 fwd="69.247.122.183" dyno=web.2 connect=1ms service=2133ms status=500 bytes=2014 protocol=https
+2021-01-06T16:35:04.782109+00:00 app[web.9]: /app/vendor/bundle/ruby/2.4.0/gems/httpclient-2.5.3.3/lib/httpclient/session.rb:966:in `read_body_length': Object#timeout is deprecated, use Timeout.timeout instead.
+2021-01-06T16:35:04.824996+00:00 app[web.2]: 
+2021-01-06T16:35:04.825013+00:00 app[web.2]: ActionView::Template::Error (missing attribute: date):
+2021-01-06T16:35:04.825014+00:00 app[web.2]: 2:   %td.checkbox
+2021-01-06T16:35:04.825015+00:00 app[web.2]: 3:     %input{:type => "checkbox", :value => attendance.id, :name => 'attendance_ids'}
+2021-01-06T16:35:04.825015+00:00 app[web.2]: 4:   %td
+2021-01-06T16:35:04.825016+00:00 app[web.2]: 5:     = attendance.date.strftime("%a, %b %e")
+2021-01-06T16:35:04.825016+00:00 app[web.2]: 6:     - unless attendance.date.year == Date.today.year
+2021-01-06T16:35:04.825017+00:00 app[web.2]: 7:       = attendance.date.strftime("%Y")
+2021-01-06T16:35:04.825018+00:00 app[web.2]: 8:     = attendance.checkin.strftime("%l:%M %p")
+2021-01-06T16:35:04.825019+00:00 app[web.2]: app/views/student_attendances/_attendance.html.haml:5:in `_app_views_student_attendances__attendance_html_haml___2839468380920763290_179936380'
+2021-01-06T16:35:04.825021+00:00 app[web.2]: app/views/attendances/_bulk_update.js.haml:2:in `block in _app_views_attendances__bulk_update_js_haml___3888547034302356288_180054240'
+2021-01-06T16:35:04.825022+00:00 app[web.2]: app/views/attendances/_bulk_update.js.haml:1:in `each'
+2021-01-06T16:35:04.825022+00:00 app[web.2]: app/views/attendances/_bulk_update.js.haml:1:in `_app_views_attendances__bulk_update_js_haml___3888547034302356288_180054240'
+2021-01-06T16:35:04.825023+00:00 app[web.2]: app/controllers/attendances_controller.rb:304:in `bulk_update'
+2021-01-06T16:35:04.825023+00:00 app[web.2]: 
+2021-01-06T16:35:04.825024+00:00 app[web.2]: 
+2021-01-06T16:35:04.844371+00:00 app[web.2]: Started GET "/search?q=rowa&limit=20&timestamp=1609950903864" for 208.93.198.244 at 2021-01-06 16:35:04 +0000
+2021-01-06T16:35:04.878551+00:00 app[web.2]: Processing by SearchController#search as JS
+2021-01-06T16:35:04.879368+00:00 app[web.2]: Parameters: {"q"=>"rowa", "limit"=>"20", "timestamp"=>"1609950903864"}
+2021-01-06T16:35:04.830406+00:00 app[web.8]: Completed 200 OK in 334ms (Views: 228.6ms | ActiveRecord: 68.0ms)
+2021-01-06T16:35:05.013850+00:00 heroku[router]: at=info method=GET path="/assets/help-icon.png" host=assets.classic.kicksite.net request_id=ea96244d-f7e0-4911-9840-0c091667be9e fwd="50.79.91.30" dyno=web.4 connect=0ms service=44ms status=304 bytes=380 protocol=https
+2021-01-06T16:35:05.205455+00:00 heroku[router]: at=info method=GET path="/search?q=rowa&limit=20&timestamp=1609950903864" host=trmahgr.classic.kicksite.net request_id=cbaac85c-ae5a-4120-8dc1-12d076dca0b9 fwd="208.93.198.244" dyno=web.2 connect=1ms service=1228ms status=200 bytes=921 protocol=https
+2021-01-06T16:35:05.089067+00:00 heroku[router]: at=info method=POST path="/billing/transactions" host=maajenks.classic.kicksite.net request_id=141b9947-7865-4894-b274-a63f6417cb7c fwd="174.66.100.74" dyno=web.9 connect=1ms service=3111ms status=302 bytes=1504 protocol=https
+2021-01-06T16:35:05.078592+00:00 app[web.9]: Redirected to https://maajenks.kicksite.net/billing/transactions
+2021-01-06T16:35:05.079080+00:00 app[web.9]: Completed 302 Found in 3047ms (ActiveRecord: 150.4ms)
+2021-01-06T16:35:05.161365+00:00 app[web.2]: Completed 200 OK in 282ms (Views: 2.4ms | ActiveRecord: 164.5ms)
+2021-01-06T16:35:05.185155+00:00 app[web.2]: ** [NewRelic][2021-01-06 16:35:05 +0000 web.2 (9436)] WARN : Skipping RUM instrumentation. Unable to find <body> tag in first 50000 bytes of document.
+2021-01-06T16:35:05.356964+00:00 app[web.1]: Started GET "/ranks/10121" for 50.79.91.30 at 2021-01-06 16:35:05 +0000
+2021-01-06T16:35:05.372767+00:00 app[web.1]: Processing by RankStatusesController#program_stats as JS
+2021-01-06T16:35:05.373390+00:00 app[web.1]: Parameters: {"program_id"=>"10121"}
+2021-01-06T16:35:05.364382+00:00 app[web.5]: Started GET "/ranks/10116" for 50.79.91.30 at 2021-01-06 16:35:05 +0000
+2021-01-06T16:35:05.381215+00:00 app[web.5]: Processing by RankStatusesController#program_stats as JS
+2021-01-06T16:35:05.382988+00:00 app[web.5]: Parameters: {"program_id"=>"10116"}
+2021-01-06T16:35:05.532348+00:00 app[web.5]: Completed 200 OK in 149ms (Views: 0.3ms | ActiveRecord: 45.0ms)
+2021-01-06T16:35:05.381451+00:00 app[web.7]: Started GET "/ranks/32977" for 50.79.91.30 at 2021-01-06 16:35:05 +0000
+2021-01-06T16:35:05.389180+00:00 app[web.7]: Processing by RankStatusesController#program_stats as JS
+2021-01-06T16:35:05.389270+00:00 app[web.7]: Parameters: {"program_id"=>"32977"}
+2021-01-06T16:35:05.578826+00:00 app[web.7]: Completed 200 OK in 189ms (Views: 4.0ms | ActiveRecord: 37.5ms)
+2021-01-06T16:35:05.589350+00:00 app[web.7]: Started GET "/ranks/10831" for 50.79.91.30 at 2021-01-06 16:35:05 +0000
+2021-01-06T16:35:05.596391+00:00 app[web.7]: Processing by RankStatusesController#program_stats as JS
+2021-01-06T16:35:05.599098+00:00 app[web.7]: Parameters: {"program_id"=>"10831"}
+2021-01-06T16:35:05.385158+00:00 app[web.8]: Started GET "/ranks/32341" for 50.79.91.30 at 2021-01-06 16:35:05 +0000
+2021-01-06T16:35:05.400433+00:00 app[web.8]: Processing by RankStatusesController#program_stats as JS
+2021-01-06T16:35:05.400507+00:00 app[web.8]: Parameters: {"program_id"=>"32341"}
+2021-01-06T16:35:05.555475+00:00 heroku[router]: at=info method=GET path="/ranks/10116" host=middleburgma.classic.kicksite.net request_id=88b20b7e-0d12-461b-ba2c-692019d71def fwd="50.79.91.30" dyno=web.5 connect=3ms service=194ms status=304 bytes=804 protocol=https
+2021-01-06T16:35:05.615693+00:00 app[web.9]: Started GET "/ranks/10114" for 50.79.91.30 at 2021-01-06 16:35:05 +0000
+2021-01-06T16:35:05.626656+00:00 app[web.9]: Processing by RankStatusesController#program_stats as JS
+2021-01-06T16:35:05.627557+00:00 app[web.9]: Parameters: {"program_id"=>"10114"}
+2021-01-06T16:35:05.651302+00:00 app[web.3]: Started GET "/ranks/10122" for 50.79.91.30 at 2021-01-06 16:35:05 +0000
+--
+2021-01-06T16:36:50.941423+00:00 heroku[router]: at=info method=POST path="/user" host=rsboxingnepa.classic.kicksite.net request_id=9f50b84e-423b-4134-a427-97907b1ecd37 fwd="104.129.204.106" dyno=web.2 connect=0ms service=741ms status=500 bytes=2014 protocol=https
+2021-01-06T16:36:50.963766+00:00 app[mailer.1]: [Worker(host:083afe05-3c90-4854-96ea-eccf839c0589 pid:4)] Job GeneralAnnouncement.deliver_announcement (id=122540680) RUNNING
+2021-01-06T16:36:50.963851+00:00 app[mailer.1]: 2021-01-06T16:36:50+0000: [Worker(host:083afe05-3c90-4854-96ea-eccf839c0589 pid:4)] Job GeneralAnnouncement.deliver_announcement (id=122540680) RUNNING
+2021-01-06T16:36:50.980067+00:00 app[mailer.2]: [Worker(host:e2d2ecaf-7fb5-4ce7-a010-3718eb7e6eeb pid:4)] 72 jobs processed at 0.5954 j/s, 0 failed
+2021-01-06T16:36:50.980086+00:00 app[mailer.2]: 2021-01-06T16:36:50+0000: [Worker(host:e2d2ecaf-7fb5-4ce7-a010-3718eb7e6eeb pid:4)] 72 jobs processed at 0.5954 j/s, 0 failed
+2021-01-06T16:36:51.101287+00:00 heroku[router]: at=info method=GET path="/static-assets/logo/primary.png" host=rsboxingnepa.classic.kicksite.net request_id=de810966-4fd0-40b2-b604-923b6a504ec3 fwd="104.129.204.106" dyno=web.7 connect=1ms service=44ms status=404 bytes=1408 protocol=https
+2021-01-06T16:36:51.132800+00:00 heroku[router]: at=info method=GET path="/assets/signature_sign.png" host=assets.classic.kicksite.net request_id=b6db1419-715f-4044-b62e-1cd9497710e8 fwd="97.95.243.149" dyno=web.7 connect=6ms service=48ms status=304 bytes=380 protocol=https
+2021-01-06T16:36:51.059775+00:00 app[web.7]: Started GET "/static-assets/logo/primary.png" for 104.129.204.106 at 2021-01-06 16:36:51 +0000
+2021-01-06T16:36:51.093745+00:00 app[web.7]: 
+2021-01-06T16:36:51.093748+00:00 app[web.7]: ActionController::RoutingError (No route matches [GET] "/static-assets/logo/primary.png"):
+2021-01-06T16:36:51.093752+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2021-01-06T16:36:51.093752+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/newrelic_rpm-6.12.0.367/lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+2021-01-06T16:36:51.093752+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2021-01-06T16:36:51.093753+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/newrelic_rpm-6.12.0.367/lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+2021-01-06T16:36:51.093753+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/chewy-5.0.0/lib/chewy/railtie.rb:19:in `block in call'
+2021-01-06T16:36:51.093754+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/chewy-5.0.0/lib/chewy/strategy.rb:70:in `wrap'
+2021-01-06T16:36:51.093754+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/chewy-5.0.0/lib/chewy.rb:201:in `strategy'
+2021-01-06T16:36:51.093755+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/chewy-5.0.0/lib/chewy/railtie.rb:19:in `call'
+2021-01-06T16:36:51.093758+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/newrelic_rpm-6.12.0.367/lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+2021-01-06T16:36:51.093758+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/railties-4.2.11/lib/rails/rack/logger.rb:38:in `call_app'
+2021-01-06T16:36:51.093759+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/railties-4.2.11/lib/rails/rack/logger.rb:20:in `block in call'
+2021-01-06T16:36:51.093759+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/activesupport-4.2.11/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2021-01-06T16:36:51.093760+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/activesupport-4.2.11/lib/active_support/tagged_logging.rb:26:in `tagged'
+2021-01-06T16:36:51.093760+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/activesupport-4.2.11/lib/active_support/tagged_logging.rb:68:in `tagged'
+2021-01-06T16:36:51.093761+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/railties-4.2.11/lib/rails/rack/logger.rb:20:in `call'
+2021-01-06T16:36:51.093761+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/newrelic_rpm-6.12.0.367/lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+2021-01-06T16:36:51.093762+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+2021-01-06T16:36:51.093762+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/newrelic_rpm-6.12.0.367/lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+2021-01-06T16:36:51.093762+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2021-01-06T16:36:51.093763+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/newrelic_rpm-6.12.0.367/lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+2021-01-06T16:36:51.093763+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/rack-1.6.13/lib/rack/methodoverride.rb:22:in `call'
+2021-01-06T16:36:51.093764+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/newrelic_rpm-6.12.0.367/lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+2021-01-06T16:36:51.093764+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/rack-1.6.13/lib/rack/runtime.rb:18:in `call'
+2021-01-06T16:36:51.093765+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/newrelic_rpm-6.12.0.367/lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+2021-01-06T16:36:51.093765+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/activesupport-4.2.11/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+2021-01-06T16:36:51.093766+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/newrelic_rpm-6.12.0.367/lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+2021-01-06T16:36:51.093766+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/static.rb:120:in `call'
+2021-01-06T16:36:51.093766+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/newrelic_rpm-6.12.0.367/lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+2021-01-06T16:36:51.093767+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/heroku-deflater-0.6.2/lib/heroku-deflater/skip_binary.rb:19:in `call'
+2021-01-06T16:36:51.093767+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/newrelic_rpm-6.12.0.367/lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+2021-01-06T16:36:51.093768+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/rack-1.6.13/lib/rack/deflater.rb:35:in `call'
+2021-01-06T16:36:51.093768+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/newrelic_rpm-6.12.0.367/lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+2021-01-06T16:36:51.093769+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/heroku-deflater-0.6.2/lib/heroku-deflater/serve_zipped_assets.rb:51:in `call'
+2021-01-06T16:36:51.093769+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/newrelic_rpm-6.12.0.367/lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+2021-01-06T16:36:51.093769+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/rack-1.6.13/lib/rack/sendfile.rb:113:in `call'
+2021-01-06T16:36:51.093770+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/newrelic_rpm-6.12.0.367/lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+2021-01-06T16:36:51.093777+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/ssl.rb:24:in `call'
+2021-01-06T16:36:51.093778+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/newrelic_rpm-6.12.0.367/lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+2021-01-06T16:36:51.093778+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/hirefire-resource-0.7.4/lib/hirefire/middleware.rb:38:in `call'
+2021-01-06T16:36:51.093779+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/newrelic_rpm-6.12.0.367/lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+2021-01-06T16:36:51.093779+00:00 app[web.7]: vendor/bundle/ruby/2.4.0/gems/railties-4.2.11/lib/rails/engine.rb:518:in `call'
+--
+2021-01-06T16:37:04.972575+00:00 heroku[router]: at=info method=POST path="/attendances/bulk_update" host=tigerrockoakgrove.classic.kicksite.net request_id=d2055192-5628-489c-a42e-2631f618ddfa fwd="69.247.122.183" dyno=web.5 connect=1ms service=413ms status=500 bytes=2014 protocol=https
+2021-01-06T16:37:04.960717+00:00 app[web.5]: 
+2021-01-06T16:37:04.960736+00:00 app[web.5]: ActionView::Template::Error (missing attribute: date):
+2021-01-06T16:37:04.960737+00:00 app[web.5]: 2:   %td.checkbox
+2021-01-06T16:37:04.960738+00:00 app[web.5]: 3:     %input{:type => "checkbox", :value => attendance.id, :name => 'attendance_ids'}
+2021-01-06T16:37:04.960738+00:00 app[web.5]: 4:   %td
+2021-01-06T16:37:04.960738+00:00 app[web.5]: 5:     = attendance.date.strftime("%a, %b %e")
+2021-01-06T16:37:04.960739+00:00 app[web.5]: 6:     - unless attendance.date.year == Date.today.year
+2021-01-06T16:37:04.960739+00:00 app[web.5]: 7:       = attendance.date.strftime("%Y")
+2021-01-06T16:37:04.960739+00:00 app[web.5]: 8:     = attendance.checkin.strftime("%l:%M %p")
+2021-01-06T16:37:04.960748+00:00 app[web.5]: app/views/student_attendances/_attendance.html.haml:5:in `_app_views_student_attendances__attendance_html_haml___2558203097713751995_157917400'
+2021-01-06T16:37:04.960750+00:00 app[web.5]: app/views/attendances/_bulk_update.js.haml:2:in `block in _app_views_attendances__bulk_update_js_haml__3419854078922686320_158005200'
+2021-01-06T16:37:04.960750+00:00 app[web.5]: app/views/attendances/_bulk_update.js.haml:1:in `each'
+2021-01-06T16:37:04.960751+00:00 app[web.5]: app/views/attendances/_bulk_update.js.haml:1:in `_app_views_attendances__bulk_update_js_haml__3419854078922686320_158005200'
+2021-01-06T16:37:04.960752+00:00 app[web.5]: app/controllers/attendances_controller.rb:304:in `bulk_update'
+2021-01-06T16:37:04.960752+00:00 app[web.5]: 
+2021-01-06T16:37:04.960752+00:00 app[web.5]: 
+2021-01-06T16:37:04.965754+00:00 app[web.5]: Started GET "/students" for 67.221.142.222 at 2021-01-06 16:37:04 +0000
+2021-01-06T16:37:04.969919+00:00 app[web.5]: Processing by StudentsController#index as HTML
+2021-01-06T16:37:05.225174+00:00 heroku[router]: at=info method=GET path="/students" host=ssata.classic.kicksite.net request_id=7533e24d-4858-49ff-8850-df8087738c95 fwd="67.221.142.222" dyno=web.5 connect=1ms service=440ms status=200 bytes=9515 protocol=https
+2021-01-06T16:37:05.040300+00:00 app[web.2]: Processing by FamilyRecurringBillingsController#index as HTML
+2021-01-06T16:37:05.091548+00:00 app[web.2]: Parameters: {"family_id"=>"75641"}
+2021-01-06T16:37:05.215719+00:00 app[web.5]: Completed 200 OK in 244ms (Views: 128.0ms | ActiveRecord: 74.8ms)
+2021-01-06T16:37:05.422030+00:00 heroku[router]: at=info method=GET path="/assets/generic.gif" host=assets.classic.kicksite.net request_id=6f5fd5e4-7044-4037-8465-3af76dfb183e fwd="67.221.142.222" dyno=web.5 connect=11ms service=10ms status=304 bytes=380 protocol=https
+2021-01-06T16:37:05.652218+00:00 heroku[router]: at=info method=GET path="/assets/page_white_excel-c62c3e1b721c5d46e2756f4bedcea29251bf72acd29938342dfb50cda8dbbd59.png" host=assets.classic.kicksite.net request_id=6aeec6f4-b3f8-48a4-908f-45b5cbc47664 fwd="67.221.142.222" dyno=web.3 connect=0ms service=9ms status=200 bytes=944 protocol=https
+2021-01-06T16:37:06.434674+00:00 app[web.4]: Started GET "/checkin/attendances/new/setup?utf8=%E2%9C%93&number=436&authenticity_token=g1YSg1isB%2FLGRLq8acNT8LKF41Ud%2Fz2OWliZnUnlQlFSAB35EO4ZkYDzfKuRnwTjHiNrtmh0jcaZj6o6tTbu9g%3D%3D&_=1609951026228" for 99.138.109.48 at 2021-01-06 16:37:06 +0000
+2021-01-06T16:37:06.452916+00:00 app[web.4]: Processing by Checkin::AttendancesController#setup as JS
+2021-01-06T16:37:06.458425+00:00 app[web.4]: Parameters: {"utf8"=>"✓", "number"=>"436", "authenticity_token"=>"g1YSg1isB/LGRLq8acNT8LKF41Ud/z2OWliZnUnlQlFSAB35EO4ZkYDzfKuRnwTjHiNrtmh0jcaZj6o6tTbu9g==", "_"=>"1609951026228"}
+2021-01-06T16:37:06.612051+00:00 heroku[router]: at=info method=GET path="/families/75641/recurring_billings" host=tigerrockcamphill.classic.kicksite.net request_id=2a026819-2ddc-42b3-8d1b-a970a84db377 fwd="73.187.209.79" dyno=web.2 connect=1ms service=1922ms status=200 bytes=11407 protocol=https
+2021-01-06T16:37:06.597963+00:00 app[web.2]: Completed 200 OK in 1435ms (Views: 842.3ms | ActiveRecord: 563.4ms)
+2021-01-06T16:37:06.818561+00:00 app[web.4]: Completed 201 Created in 360ms (Views: 7.5ms | ActiveRecord: 115.0ms)
+2021-01-06T16:37:06.828058+00:00 heroku[router]: at=info method=GET path="/checkin/attendances/new/setup?utf8=%E2%9C%93&number=436&authenticity_token=g1YSg1isB%2FLGRLq8acNT8LKF41Ud%2Fz2OWliZnUnlQlFSAB35EO4ZkYDzfKuRnwTjHiNrtmh0jcaZj6o6tTbu9g%3D%3D&_=1609951026228" host=carlsongraciehq.classic.kicksite.net request_id=802be04d-c2e8-4aa3-bcd5-3061f2c8983f fwd="99.138.109.48" dyno=web.4 connect=1ms service=398ms status=201 bytes=1774 protocol=https
+2021-01-06T16:37:07.106363+00:00 heroku[router]: at=info method=GET path="/assets/generic.gif" host=assets.classic.kicksite.net request_id=5fe72c57-b9ec-4434-a797-21d2a68b486f fwd="73.187.209.79" dyno=web.5 connect=1ms service=35ms status=304 bytes=380 protocol=https
+2021-01-06T16:37:08.389214+00:00 app[web.4]: Started GET "/promo/6891/63AuMu5OfmZxXypsqxkWd4OLzU/new?kiosk_mode=true" for 173.252.83.4 at 2021-01-06 16:37:08 +0000
+2021-01-06T16:37:08.419235+00:00 app[web.4]: Processing by BizbuilderFormOrdersController#new as */*
+2021-01-06T16:37:08.419365+00:00 app[web.4]: Parameters: {"kiosk_mode"=>"true", "id"=>"6891", "access_key"=>"[FILTERED]"}
+2021-01-06T16:37:08.577718+00:00 app[web.2]: Started GET "/promo/6891/63AuMu5OfmZxXypsqxkWd4OLzU/new?kiosk_mode=true" for 173.252.83.9 at 2021-01-06 16:37:08 +0000
+2021-01-06T16:37:08.613634+00:00 app[web.2]: Processing by BizbuilderFormOrdersController#new as */*
+2021-01-06T16:37:08.624560+00:00 app[web.2]: Parameters: {"kiosk_mode"=>"true", "id"=>"6891", "access_key"=>"[FILTERED]"}
+2021-01-06T16:37:08.703100+00:00 app[web.4]: Completed 200 OK in 283ms (Views: 227.1ms | ActiveRecord: 38.9ms)
+2021-01-06T16:37:08.719041+00:00 heroku[router]: at=info method=GET path="/promo/6891/63AuMu5OfmZxXypsqxkWd4OLzU/new?kiosk_mode=true" host=budokaimartialarts.classic.kicksite.net request_id=fd8cf41c-d104-438c-8730-36b2d266d664 fwd="173.252.83.4" dyno=web.4 connect=0ms service=336ms status=200 bytes=11497 protocol=https
+2021-01-06T16:37:08.958328+00:00 heroku[router]: at=info method=GET path="/promo/6891/63AuMu5OfmZxXypsqxkWd4OLzU/new?kiosk_mode=true" host=budokaimartialarts.classic.kicksite.net request_id=6fb69d21-adbd-4824-bfd6-356e4edb2c31 fwd="173.252.83.9" dyno=web.2 connect=0ms service=386ms status=200 bytes=11497 protocol=https
+2021-01-06T16:37:08.937547+00:00 app[web.2]: Completed 200 OK in 306ms (Views: 208.7ms | ActiveRecord: 70.8ms)
+2021-01-06T16:37:09.209356+00:00 app[web.3]: Started GET "/students/1802608/edit" for 67.221.142.222 at 2021-01-06 16:37:09 +0000
+2021-01-06T16:37:09.222801+00:00 app[web.3]: Processing by StudentsController#edit as HTML
+2021-01-06T16:37:09.227976+00:00 app[web.3]: Parameters: {"id"=>"1802608"}
+2021-01-06T16:37:09.593938+00:00 heroku[router]: at=info method=GET path="/assets/user-profile.png" host=teamtooke.classic.kicksite.net request_id=c312e8b0-4dce-441e-8e9b-5427b686e1ee fwd="73.32.89.179" dyno=web.2 connect=0ms service=43ms status=304 bytes=380 protocol=https
+2021-01-06T16:37:10.053938+00:00 heroku[router]: at=info method=GET path="/checkin/attendances/new/setup?utf8=%E2%9C%93&number=054&authenticity_token=qRhik6%2FadGoOnWKIa59X%2FrvKSjOg0CVmTOSq16q46OYRcCtad78qzKwAYugPvUAAoRuBlPAF2%2B7o3wdH5gq9UA%3D%3D&_=1609951029196" host=teamtooke.classic.kicksite.net request_id=53d269ba-edb3-473f-8a4d-aa774d60cb0f fwd="73.32.89.179" dyno=web.5 connect=1ms service=144ms status=201 bytes=1778 protocol=https
+2021-01-06T16:37:09.911464+00:00 app[web.5]: Started GET "/checkin/attendances/new/setup?utf8=%E2%9C%93&number=054&authenticity_token=qRhik6%2FadGoOnWKIa59X%2FrvKSjOg0CVmTOSq16q46OYRcCtad78qzKwAYugPvUAAoRuBlPAF2%2B7o3wdH5gq9UA%3D%3D&_=1609951029196" for 73.32.89.179 at 2021-01-06 16:37:09 +0000
+2021-01-06T16:37:09.915793+00:00 app[web.5]: Processing by Checkin::AttendancesController#setup as JS
+2021-01-06T16:37:09.916799+00:00 app[web.5]: Parameters: {"utf8"=>"✓", "number"=>"054", "authenticity_token"=>"qRhik6/adGoOnWKIa59X/rvKSjOg0CVmTOSq16q46OYRcCtad78qzKwAYugPvUAAoRuBlPAF2+7o3wdH5gq9UA==", "_"=>"1609951029196"}
+--
+2021-01-06T16:39:00.387730+00:00 heroku[router]: at=info method=POST path="/attendances/bulk_update" host=tigerrockoakgrove.classic.kicksite.net request_id=106042c5-d165-41e7-aaaf-cd2ceea87e83 fwd="69.247.122.183" dyno=web.7 connect=8ms service=376ms status=500 bytes=2014 protocol=https
+2021-01-06T16:39:00.511120+00:00 heroku[router]: at=info method=GET path="/students/1805450" host=trmahsv.classic.kicksite.net request_id=3da83f67-4351-4752-b067-f5a6ca0bafe2 fwd="99.22.36.83" dyno=web.3 connect=1ms service=1276ms status=200 bytes=13891 protocol=https
+2021-01-06T16:39:00.694270+00:00 app[web.2]: Started GET "/prospects/1795283" for 67.221.142.222 at 2021-01-06 16:39:00 +0000
+2021-01-06T16:39:00.704202+00:00 app[web.2]: Processing by ProspectsController#show as HTML
+2021-01-06T16:39:00.704313+00:00 app[web.2]: Parameters: {"id"=>"1795283"}
+2021-01-06T16:39:00.797188+00:00 app[web.9]: Completed 200 OK in 715ms (Views: 149.4ms | ActiveRecord: 104.8ms)
+2021-01-06T16:39:00.799408+00:00 app[web.9]: ** [NewRelic][2021-01-06 16:39:00 +0000 web.9 (7)] WARN : Skipping RUM instrumentation. Unable to find <body> tag in first 50000 bytes of document.
+2021-01-06T16:39:01.087110+00:00 heroku[router]: at=info method=GET path="/assets/js/signature_pad-b4f7af1294b41bfdede400da4379f41907228e537f17fbaf8611393fc1ee0a88.js" host=assets.classic.kicksite.net request_id=fc3ffb3b-625d-4f70-a757-775037a9086b fwd="148.5.72.11" dyno=web.6 connect=0ms service=3ms status=200 bytes=5679 protocol=https
+2021-01-06T16:39:01.137532+00:00 heroku[router]: at=info method=GET path="/assets/js/signature-2118aeb03bd2b08e656b32327bbfb902ebf9f5e38fb79bff8113c966a44947a9.js" host=assets.classic.kicksite.net request_id=bf5160f5-89d3-4c9d-997b-c1c98c7f91fc fwd="148.5.72.11" dyno=web.9 connect=0ms service=3ms status=200 bytes=851 protocol=https
+2021-01-06T16:39:00.830800+00:00 heroku[router]: at=info method=GET path="/dashboard/past_due?threshold_1=1" host=ssata.classic.kicksite.net request_id=21c4246c-36ec-4e22-b343-92ae99e84901 fwd="67.221.142.222" dyno=web.9 connect=10ms service=758ms status=304 bytes=788 protocol=https
+2021-01-06T16:39:01.091203+00:00 heroku[router]: at=info method=GET path="/assets/communications-f7eadf84c53578ca81f83fe656b838feeed7e0908c932b6d24891ff9274267f2.css" host=assets.classic.kicksite.net request_id=07327248-20df-472e-b138-17b0329842ce fwd="148.5.72.11" dyno=web.4 connect=1ms service=6ms status=200 bytes=58227 protocol=https
+2021-01-06T16:39:01.475966+00:00 heroku[router]: at=info method=GET path="/prospects/1795283" host=ssata.classic.kicksite.net request_id=e5e20407-902d-4030-b15d-6f09758074a9 fwd="67.221.142.222" dyno=web.2 connect=1ms service=787ms status=200 bytes=14025 protocol=https
+2021-01-06T16:39:01.406640+00:00 heroku[router]: at=info method=GET path="/assets/communications-fc4480a6cd64276c3913f704e7334d8e765e2d1c24819f5793b98f4ea297b880.js" host=assets.classic.kicksite.net request_id=b284a9b0-c222-4cc3-9e4a-2b95f6fcd803 fwd="148.5.72.11" dyno=web.5 connect=1ms service=28ms status=200 bytes=296341 protocol=https
+2021-01-06T16:39:01.517250+00:00 heroku[router]: at=info method=GET path="/assets/generic_big.gif" host=assets.classic.kicksite.net request_id=91899126-cbb0-4500-adc8-34ee240dbbd7 fwd="99.22.36.83" dyno=web.2 connect=8ms service=623ms status=304 bytes=380 protocol=https
+2021-01-06T16:39:01.441200+00:00 app[web.2]: Completed 200 OK in 734ms (Views: 403.9ms | ActiveRecord: 298.0ms)
+2021-01-06T16:39:01.573612+00:00 heroku[router]: at=info method=GET path="/assets/generic_big.gif" host=assets.classic.kicksite.net request_id=ee27b175-0590-4635-8370-844b069317c3 fwd="67.221.142.222" dyno=web.8 connect=0ms service=13ms status=304 bytes=380 protocol=https
+2021-01-06T16:39:01.716933+00:00 app[web.1]: Started GET "/prospects/1795283" for 67.221.142.222 at 2021-01-06 16:39:01 +0000
+2021-01-06T16:39:01.722646+00:00 app[web.1]: Processing by ProspectsController#show as HTML
+2021-01-06T16:39:01.724797+00:00 app[web.1]: Parameters: {"id"=>"1795283"}
+2021-01-06T16:39:01.852747+00:00 heroku[router]: at=info method=GET path="/assets/cocoon-f11c624796ad1beb726336f108d6e098a14ec5fe3f621f6b2fd2e53b2502b63b.js" host=assets.classic.kicksite.net request_id=8fdce3e9-e5cb-4982-8274-1ccfca4ac1f5 fwd="148.5.72.11" dyno=web.5 connect=4ms service=4ms status=200 bytes=1727 protocol=https
+2021-01-06T16:39:02.571545+00:00 app[web.1]: Completed 200 OK in 846ms (Views: 366.5ms | ActiveRecord: 404.8ms)
+2021-01-06T16:39:02.715676+00:00 heroku[router]: at=info method=GET path="/assets/generic_big.gif" host=assets.classic.kicksite.net request_id=f00dd123-4c0a-48a9-9dd0-93e744b4c740 fwd="67.221.142.222" dyno=web.3 connect=0ms service=20ms status=304 bytes=380 protocol=https
+2021-01-06T16:39:02.640754+00:00 heroku[router]: at=info method=GET path="/prospects/1795283" host=ssata.classic.kicksite.net request_id=02609ca2-f428-48a1-89c8-674757d6624f fwd="67.221.142.222" dyno=web.1 connect=3ms service=927ms status=200 bytes=14024 protocol=https
+2021-01-06T16:39:03.829060+00:00 app[web.7]: Started GET "/students/839539/edit" for 50.79.91.30 at 2021-01-06 16:39:03 +0000
+2021-01-06T16:39:03.832987+00:00 app[web.7]: Processing by StudentsController#edit as HTML
+2021-01-06T16:39:03.832992+00:00 app[web.7]: Parameters: {"id"=>"839539"}
+2021-01-06T16:39:04.233408+00:00 heroku[router]: at=info method=GET path="/students/839539/edit" host=middleburgma.classic.kicksite.net request_id=bd2a092c-0ee3-4b07-8d80-a53a862cb8f9 fwd="50.79.91.30" dyno=web.7 connect=1ms service=406ms status=200 bytes=22589 protocol=https
+2021-01-06T16:39:04.218357+00:00 app[web.7]: Completed 200 OK in 385ms (Views: 169.1ms | ActiveRecord: 194.5ms)
+2021-01-06T16:39:04.607386+00:00 app[web.1]: Started GET "/student_view/pages" for 69.181.247.104 at 2021-01-06 16:39:04 +0000
+2021-01-06T16:39:04.620073+00:00 app[web.1]: Processing by StudentView::PagesController#index as HTML
+2021-01-06T16:39:04.805594+00:00 app[web.1]: /app/vendor/bundle/ruby/2.4.0/gems/will_paginate-3.0.7/lib/will_paginate/view_helpers/link_renderer.rb:27: warning: constant ::Fixnum is deprecated
+2021-01-06T16:39:04.805740+00:00 app[web.1]: /app/vendor/bundle/ruby/2.4.0/gems/will_paginate-3.0.7/lib/will_paginate/view_helpers/link_renderer.rb:91: warning: constant ::Fixnum is deprecated
+2021-01-06T16:39:04.842293+00:00 app[web.1]: Completed 200 OK in 222ms (Views: 67.1ms | ActiveRecord: 67.6ms)
+2021-01-06T16:39:04.982139+00:00 heroku[router]: at=info method=GET path="/student_view/pages" host=selfdefensesolutions.classic.kicksite.net request_id=4ab2eef0-13eb-45a6-8b6d-19771837d38e fwd="69.181.247.104" dyno=web.1 connect=1ms service=380ms status=200 bytes=7655 protocol=https
+2021-01-06T16:39:05.231237+00:00 app[web.4]: Started GET "/" for 173.69.180.81 at 2021-01-06 16:39:05 +0000
+2021-01-06T16:39:05.242240+00:00 app[web.4]: Processing by DashboardsController#show as HTML
+2021-01-06T16:39:05.262776+00:00 app[web.4]: Redirected to https://teamrandori.kicksite.net/login
+2021-01-06T16:39:05.263068+00:00 app[web.4]: Filter chain halted as :login_required rendered or redirected
+2021-01-06T16:39:05.263732+00:00 app[web.4]: Completed 302 Found in 21ms (ActiveRecord: 7.5ms)
+2021-01-06T16:39:05.284121+00:00 heroku[router]: at=info method=GET path="/" host=teamrandori.classic.kicksite.net request_id=4b57fde6-aea9-40b8-bad7-9a415c6f9f0b fwd="173.69.180.81" dyno=web.4 connect=1ms service=56ms status=302 bytes=949 protocol=https
+2021-01-06T16:39:05.396556+00:00 app[web.7]: Started GET "/students/1805450/financing" for 99.22.36.83 at 2021-01-06 16:39:05 +0000
+2021-01-06T16:39:05.402144+00:00 app[web.7]: Processing by FinancingController#index as HTML
+2021-01-06T16:39:05.402178+00:00 app[web.7]: Parameters: {"student_id"=>"1805450"}
+2021-01-06T16:39:06.100047+00:00 app[web.7]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2021-01-06T16:39:06.154024+00:00 app[web.7]: Completed 200 OK in 752ms (Views: 168.9ms | ActiveRecord: 550.8ms)
+2021-01-06T16:39:06.370273+00:00 heroku[router]: at=info method=GET path="/assets/generic_big.gif" host=assets.classic.kicksite.net request_id=308329b1-548d-4e41-b506-5ee49fc3f80d fwd="99.22.36.83" dyno=web.6 connect=1ms service=7ms status=304 bytes=380 protocol=https
+2021-01-06T16:39:06.170419+00:00 heroku[router]: at=info method=GET path="/students/1805450/financing" host=trmahsv.classic.kicksite.net request_id=3c260f10-43f3-4450-9bc3-17140eeeca0b fwd="99.22.36.83" dyno=web.7 connect=1ms service=777ms status=200 bytes=12937 protocol=https
+2021-01-06T16:39:06.186767+00:00 heroku[router]: at=info method=GET path="/assets/plugins/bootstrap/js/bootstrap.min.js" host=ustcmonument.classic.kicksite.net request_id=f6cd8d6d-ebd7-4292-b5f7-e1bb064dab7f fwd="148.5.72.11" dyno=web.2 connect=11ms service=29ms status=200 bytes=10162 protocol=https
+2021-01-06T16:39:06.443645+00:00 app[web.1]: Started GET "/search?q=yah&limit=20&timestamp=1609951146206" for 67.140.239.132 at 2021-01-06 16:39:06 +0000
+2021-01-06T16:39:06.461271+00:00 app[web.1]: Processing by SearchController#search as JS
+2021-01-06T16:39:06.463355+00:00 app[web.1]: Parameters: {"q"=>"yah", "limit"=>"20", "timestamp"=>"1609951146206"}
+--
+2021-01-06T16:41:15.632764+00:00 heroku[router]: at=info method=POST path="/attendances/bulk_update" host=tigerrockoakgrove.classic.kicksite.net request_id=2aaff128-de61-476b-8c1f-3177533ca06d fwd="69.247.122.183" dyno=web.5 connect=1ms service=448ms status=500 bytes=2014 protocol=https
+2021-01-06T16:41:15.627383+00:00 app[web.5]: 
+2021-01-06T16:41:15.627396+00:00 app[web.5]: ActionView::Template::Error (missing attribute: date):
+2021-01-06T16:41:15.627397+00:00 app[web.5]: 2:   %td.checkbox
+2021-01-06T16:41:15.627398+00:00 app[web.5]: 3:     %input{:type => "checkbox", :value => attendance.id, :name => 'attendance_ids'}
+2021-01-06T16:41:15.627398+00:00 app[web.5]: 4:   %td
+2021-01-06T16:41:15.627399+00:00 app[web.5]: 5:     = attendance.date.strftime("%a, %b %e")
+2021-01-06T16:41:15.627399+00:00 app[web.5]: 6:     - unless attendance.date.year == Date.today.year
+2021-01-06T16:41:15.627400+00:00 app[web.5]: 7:       = attendance.date.strftime("%Y")
+2021-01-06T16:41:15.627400+00:00 app[web.5]: 8:     = attendance.checkin.strftime("%l:%M %p")
+2021-01-06T16:41:15.627401+00:00 app[web.5]: app/views/student_attendances/_attendance.html.haml:5:in `_app_views_student_attendances__attendance_html_haml___2558203097713751995_157917400'
+2021-01-06T16:41:15.627402+00:00 app[web.5]: app/views/attendances/_bulk_update.js.haml:2:in `block in _app_views_attendances__bulk_update_js_haml__3419854078922686320_158005200'
+2021-01-06T16:41:15.627402+00:00 app[web.5]: app/views/attendances/_bulk_update.js.haml:1:in `each'
+2021-01-06T16:41:15.627403+00:00 app[web.5]: app/views/attendances/_bulk_update.js.haml:1:in `_app_views_attendances__bulk_update_js_haml__3419854078922686320_158005200'
+2021-01-06T16:41:15.627406+00:00 app[web.5]: app/controllers/attendances_controller.rb:304:in `bulk_update'
+2021-01-06T16:41:15.627407+00:00 app[web.5]: 
+2021-01-06T16:41:15.627407+00:00 app[web.5]: 
+2021-01-06T16:41:15.653228+00:00 app[web.2]: Started GET "/communications/general_announcements/398676/gb9P%2FpBWl6VZdCXs+UFA746TuBM/download_attachment" for 72.75.214.41 at 2021-01-06 16:41:15 +0000
+2021-01-06T16:41:15.658960+00:00 app[web.2]: Processing by Communications::GeneralAnnouncementsController#download_attachment as HTML
+2021-01-06T16:41:15.659059+00:00 app[web.2]: Parameters: {"general_announcement_id"=>"398676", "confirm"=>"gb9P/pBWl6VZdCXs+UFA746TuBM"}
+2021-01-06T16:41:15.686217+00:00 app[web.2]: Redirected to https://s3.amazonaws.com/kicksite.production/general_announcement_attachments/398676/Modified_Training_Grid.xlsx?AWSAccessKeyId=AKIA5POWCKOOJYPZX44X&Expires=1609951285&Signature=p20RN0%2FbKSjcY%2BkIr%2BueqGFG1NM%3D
+2021-01-06T16:41:15.686633+00:00 app[web.2]: Completed 302 Found in 27ms (ActiveRecord: 12.3ms)
+2021-01-06T16:41:15.699638+00:00 heroku[router]: at=info method=GET path="/communications/general_announcements/398676/gb9P%2FpBWl6VZdCXs+UFA746TuBM/download_attachment" host=gorinotaekwondo.classic.kicksite.net request_id=0563ec57-36bc-4ea3-bb7a-c3bbe53bf2f2 fwd="72.75.214.41" dyno=web.2 connect=1ms service=48ms status=302 bytes=1071 protocol=https
+2021-01-06T16:41:16.040402+00:00 app[web.8]: /app/vendor/bundle/ruby/2.4.0/gems/httpclient-2.5.3.3/lib/httpclient/session.rb:966:in `read_body_length': Object#timeout is deprecated, use Timeout.timeout instead.
+2021-01-06T16:41:16.054816+00:00 app[web.8]: /app/lib/billing_utilities.rb:34:in `format_payment_source': CreditCard#type is deprecated and will be removed from a future release of ActiveMerchant. Please use CreditCard#brand instead.
+2021-01-06T16:41:16.073292+00:00 app[web.8]: /app/app/models/usa_epay_ma.rb:110:in `store!': CreditCard#type is deprecated and will be removed from a future release of ActiveMerchant. Please use CreditCard#brand instead.
+2021-01-06T16:41:16.075992+00:00 app[web.8]: /app/vendor/bundle/ruby/2.4.0/gems/httpclient-2.5.3.3/lib/httpclient/session.rb:762:in `connect': Object#timeout is deprecated, use Timeout.timeout instead.
+2021-01-06T16:41:16.304446+00:00 app[web.8]: /app/vendor/bundle/ruby/2.4.0/gems/httpclient-2.5.3.3/lib/httpclient/session.rb:624:in `query': Object#timeout is deprecated, use Timeout.timeout instead.
+2021-01-06T16:41:16.304937+00:00 app[web.8]: /app/vendor/bundle/ruby/2.4.0/gems/httpclient-2.5.3.3/lib/httpclient/session.rb:888:in `parse_header': Object#timeout is deprecated, use Timeout.timeout instead.
+2021-01-06T16:41:16.483128+00:00 app[web.8]: /app/vendor/bundle/ruby/2.4.0/gems/httpclient-2.5.3.3/lib/httpclient/session.rb:999:in `read_body_chunked': Object#timeout is deprecated, use Timeout.timeout instead.
+2021-01-06T16:41:16.424745+00:00 app[web.2]: Started GET "/students/1795283/invoices" for 67.221.142.222 at 2021-01-06 16:41:16 +0000
+2021-01-06T16:41:16.439816+00:00 app[web.2]: Processing by PersonInvoicesController#index as HTML
+2021-01-06T16:41:16.439894+00:00 app[web.2]: Parameters: {"student_id"=>"1795283"}
+2021-01-06T16:41:16.936488+00:00 app[web.8]: /app/vendor/bundle/ruby/2.4.0/gems/httpclient-2.5.3.3/lib/httpclient/session.rb:762:in `connect': Object#timeout is deprecated, use Timeout.timeout instead.
+2021-01-06T16:41:17.173202+00:00 app[web.8]: /app/vendor/bundle/ruby/2.4.0/gems/httpclient-2.5.3.3/lib/httpclient/session.rb:624:in `query': Object#timeout is deprecated, use Timeout.timeout instead.
+2021-01-06T16:41:17.174438+00:00 app[web.8]: /app/vendor/bundle/ruby/2.4.0/gems/httpclient-2.5.3.3/lib/httpclient/session.rb:888:in `parse_header': Object#timeout is deprecated, use Timeout.timeout instead.
+2021-01-06T16:41:17.426001+00:00 app[web.8]: /app/vendor/bundle/ruby/2.4.0/gems/httpclient-2.5.3.3/lib/httpclient/session.rb:966:in `read_body_length': Object#timeout is deprecated, use Timeout.timeout instead.
+2021-01-06T16:41:17.432455+00:00 app[web.8]: /app/lib/billing_utilities.rb:34:in `format_payment_source': CreditCard#type is deprecated and will be removed from a future release of ActiveMerchant. Please use CreditCard#brand instead.
+2021-01-06T16:41:17.486661+00:00 app[web.8]: Redirected to https://trmahsv.kicksite.net/billing/recurring_billings/255947
+2021-01-06T16:41:17.487039+00:00 app[web.8]: Completed 302 Found in 3564ms (ActiveRecord: 50.3ms)
+2021-01-06T16:41:17.537663+00:00 heroku[router]: at=info method=POST path="/billing/recurring_billings" host=trmahsv.classic.kicksite.net request_id=83ea4fe0-5cf9-4c5e-bae6-d6b4056443e0 fwd="99.22.36.83" dyno=web.8 connect=1ms service=3618ms status=302 bytes=1464 protocol=https
+2021-01-06T16:41:17.729587+00:00 heroku[router]: at=info method=GET path="/students/1795283/invoices" host=ssata.classic.kicksite.net request_id=0a9efe04-ea65-4e82-abc6-33f5d52a691a fwd="67.221.142.222" dyno=web.2 connect=8ms service=1307ms status=200 bytes=12606 protocol=https
+2021-01-06T16:41:17.704001+00:00 app[web.2]: Completed 200 OK in 1264ms (Views: 359.2ms | ActiveRecord: 846.3ms)
+2021-01-06T16:41:17.820626+00:00 heroku[router]: at=info method=GET path="/assets/generic_b

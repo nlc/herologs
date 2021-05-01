@@ -1,0 +1,100 @@
+2020-12-16T19:41:02.642312+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/prospects" host=ustcmonument.classic.kicksite.net request_id=1b051517-9c68-4588-a529-5aa1b12a5016 fwd="98.245.209.108" dyno=web.4 connect=0ms service=30008ms status=503 bytes=0 protocol=https
+2020-12-16T19:41:02.678816+00:00 app[web.10]: Completed 200 OK in 1626ms (Views: 1182.8ms | ActiveRecord: 298.7ms)
+2020-12-16T19:41:02.701529+00:00 app[web.10]: Started GET "/students/1606547/financing" for 76.18.183.38 at 2020-12-16 19:41:02 +0000
+2020-12-16T19:41:02.712405+00:00 app[web.10]: Processing by FinancingController#index as HTML
+2020-12-16T19:41:02.712482+00:00 app[web.10]: Parameters: {"student_id"=>"1606547"}
+2020-12-16T19:41:03.509795+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/search?q=ma&limit=20&timestamp=1608147632693" host=middleburgma.classic.kicksite.net request_id=0e5496ae-649e-44f5-a520-4b8fdc467af1 fwd="50.79.91.30" dyno=web.10 connect=1ms service=30006ms status=503 bytes=0 protocol=https
+2020-12-16T19:41:03.710629+00:00 app[web.1]: I, [2020-12-16T19:41:03.710499 #4]  INFO -- : Refreshing Gem list
+2020-12-16T19:41:03.933746+00:00 app[web.10]: Completed 200 OK in 1221ms (Views: 480.2ms | ActiveRecord: 682.4ms)
+2020-12-16T19:41:03.965988+00:00 app[web.10]: Started GET "/students/1308650" for 98.245.209.108 at 2020-12-16 19:41:03 +0000
+2020-12-16T19:41:03.980058+00:00 app[web.10]: Processing by StudentsController#show as HTML
+2020-12-16T19:41:03.980148+00:00 app[web.10]: Parameters: {"id"=>"1308650"}
+2020-12-16T19:41:04.013319+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/communications" host=oakhilltkd.classic.kicksite.net request_id=6e268a94-e3ca-44e2-81b0-b10aea2c92fc fwd="99.61.67.162" dyno=web.10 connect=1ms service=30005ms status=503 bytes=0 protocol=https
+2020-12-16T19:41:04.273252+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:04.318594+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:04.347474+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:04.379772+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:04.439561+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:04.470903+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:04.568372+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:04.612332+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=DELETE path="/appointments/244804" host=ustcmonument.classic.kicksite.net request_id=3f32c7de-e9e0-483d-a99c-c2d79b6d1d43 fwd="98.245.209.108" dyno=web.2 connect=0ms service=30000ms status=503 bytes=0 protocol=https
+2020-12-16T19:41:04.614039+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:04.668727+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:04.715238+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:04.777809+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:04.854583+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:04.907121+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:04.985020+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.037732+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.149613+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.175286+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/assets/generic_big.gif" host=assets.classic.kicksite.net request_id=494124ff-113b-40ac-9faa-4b65c6467595 fwd="72.38.59.50" dyno=web.2 connect=6ms service=30001ms status=503 bytes=0 protocol=https
+2020-12-16T19:41:05.220797+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.271264+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.302145+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.342321+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.401774+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.430372+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.462000+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.483798+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.523093+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.546740+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.568201+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.596350+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.620089+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.643878+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.662868+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.680707+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.692265+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.716899+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.787825+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.804397+00:00 heroku[web.5]: Starting process with command `bundle exec unicorn -p 15073 -c ./config/unicorn.rb`
+2020-12-16T19:41:05.817650+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.837466+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.856977+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.869484+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.883125+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.887048+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.912668+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.924921+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/nokogiri-1.6.8.1/lib/nokogiri/html/document.rb:164: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:05.964395+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/students/257707/attendances" host=crosleygracie.classic.kicksite.net request_id=ce495897-3c01-4ba2-b327-28bfb936b619 fwd="67.180.246.175" dyno=web.10 connect=1ms service=30000ms status=503 bytes=0 protocol=https
+2020-12-16T19:41:06.305539+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=DELETE path="/appointments/245909" host=ustcmonument.classic.kicksite.net request_id=afb3a4ad-36fa-4cc0-86c0-0a87d1fc7079 fwd="98.245.209.108" dyno=web.10 connect=1ms service=30004ms status=503 bytes=0 protocol=https
+2020-12-16T19:41:06.776052+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/assets/bullet_toggle_minus-f751115943de91fc272473a4db3875c76c7ad5c1d3432ce1bf7956dcf7ae4ae9.png" host=assets.classic.kicksite.net request_id=ac0cf57a-8a1c-498d-9e4d-5e053e895842 fwd="71.196.141.137" dyno=web.10 connect=1ms service=30000ms status=503 bytes=0 protocol=https
+2020-12-16T19:41:06.811649+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/favicon.ico" host=palmettoma.classic.kicksite.net request_id=f79f3c9d-c146-415e-aa0a-7e81f12cb064 fwd="96.37.72.209" dyno=web.2 connect=0ms service=30000ms status=503 bytes=0 protocol=https
+2020-12-16T19:41:07.100410+00:00 app[web.10]: Completed 200 OK in 3120ms (Views: 1891.9ms | ActiveRecord: 1176.9ms)
+2020-12-16T19:41:07.131449+00:00 app[web.10]: Started GET "/search?q=ma&limit=20&timestamp=1608147632693" for 50.79.91.30 at 2020-12-16 19:41:07 +0000
+2020-12-16T19:41:07.137457+00:00 app[web.10]: Processing by SearchController#search as JS
+2020-12-16T19:41:07.137464+00:00 app[web.10]: Parameters: {"q"=>"ma", "limit"=>"20", "timestamp"=>"1608147632693"}
+2020-12-16T19:41:07.368196+00:00 app[web.10]: Completed 200 OK in 230ms (Views: 133.4ms | ActiveRecord: 31.1ms)
+2020-12-16T19:41:07.368959+00:00 app[web.10]: ** [NewRelic][2020-12-16 19:41:07 +0000 web.10 (24)] WARN : Skipping RUM instrumentation. Unable to find <body> tag in first 50000 bytes of document.
+2020-12-16T19:41:07.374988+00:00 app[web.10]: Started GET "/communications" for 99.61.67.162 at 2020-12-16 19:41:07 +0000
+2020-12-16T19:41:07.382405+00:00 app[web.10]: Processing by Communications::DashboardsController#show as HTML
+2020-12-16T19:41:07.621834+00:00 heroku[web.6]: Starting process with command `bundle exec unicorn -p 15301 -c ./config/unicorn.rb`
+2020-12-16T19:41:08.258188+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/will_paginate-bootstrap-1.0.1/lib/bootstrap_pagination/bootstrap_renderer.rb:11: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:08.266985+00:00 app[web.10]: /app/vendor/bundle/ruby/2.4.0/gems/will_paginate-3.0.7/lib/will_paginate/view_helpers/link_renderer.rb:91: warning: constant ::Fixnum is deprecated
+2020-12-16T19:41:08.361403+00:00 app[web.10]: Completed 200 OK in 979ms (Views: 381.2ms | ActiveRecord: 493.6ms)
+2020-12-16T19:41:08.380843+00:00 heroku[mailer.2]: Starting process with command `QUEUE=mailers bundle exec rake jobs:work`
+2020-12-16T19:41:08.391283+00:00 app[web.10]: Started GET "/students/257707/attendances" for 67.180.246.175 at 2020-12-16 19:41:08 +0000
+2020-12-16T19:41:08.491986+00:00 app[web.10]: Processing by StudentAttendancesController#index as HTML
+2020-12-16T19:41:08.497479+00:00 app[web.10]: Parameters: {"student_id"=>"257707"}
+2020-12-16T19:41:08.964447+00:00 heroku[mailer.2]: State changed from starting to up
+2020-12-16T19:41:09.072773+00:00 heroku[web.9]: Starting process with command `bundle exec unicorn -p 23746 -c ./config/unicorn.rb`
+2020-12-16T19:41:09.115785+00:00 app[web.2]: Completed 200 OK in 16780ms (Views: 15248.9ms | ActiveRecord: 1499.3ms)
+2020-12-16T19:41:09.164994+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/prospects/1787914" host=trainingcenter.classic.kicksite.net request_id=815cc998-3b1f-4275-bd74-316da7f3b7bf fwd="76.92.196.135" dyno=web.10 connect=1ms service=30001ms status=503 bytes=0 protocol=https
+2020-12-16T19:41:09.178023+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/assets/application-1904b5213e55e71e3e4065857ec30fa7f930204e8bdbc73aff2ee85d41838d2b.css" host=assets.classic.kicksite.net request_id=603881da-b83b-4ca8-aa17-fdf2b707f023 fwd="74.136.145.13" dyno=web.4 connect=0ms service=30000ms status=503 bytes=0 protocol=https
+2020-12-16T19:41:09.190998+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/assets/application-88352963a19dc093a4d13fa85a6b8e748baa571307bf041a1115220b97e1f413.js" host=assets.classic.kicksite.net request_id=461d71fa-a356-4f6d-a777-3c15104502db fwd="74.136.145.13" dyno=web.2 connect=1ms service=30001ms status=503 bytes=0 protocol=https
+2020-12-16T19:41:09.350096+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=assets.classic.kicksite.net request_id=a731958e-2111-4d4b-ad3a-c9d2b9492e9e fwd="71.143.88.24" dyno=web.2 connect=0ms service=29148ms status=200 bytes=1447 protocol=https
+2020-12-16T19:41:09.357233+00:00 app[web.2]: Started GET "/checkin/attendances/new/setup?utf8=%E2%9C%93&number=150&authenticity_token=sJFYTxox1HCozTQ8cV0UWaM6FzDz7fbkuAfB72Fm55sCAzTUnYTs%2BDNi02HtrL97i7ADnMKLwxZMQu5NSz3LqA%3D%3D&_=1608147641486" for 66.27.91.146 at 2020-12-16 19:41:09 +0000
+2020-12-16T19:41:09.364606+00:00 app[web.2]: Processing by Checkin::AttendancesController#setup as JS
+2020-12-16T19:41:09.364886+00:00 heroku[router]: at=info method=GET path="/assets/kicksite_logo.png" host=assets.classic.kicksite.net request_id=0f5bb342-5361-44bb-a345-e4ba392e4f6e fwd="76.223.247.127" dyno=web.2 connect=0ms service=28904ms status=304 bytes=380 protocol=https
+2020-12-16T19:41:09.365405+00:00 app[web.2]: Parameters: {"utf8"=>"✓", "number"=>"150", "authenticity_token"=>"sJFYTxox1HCozTQ8cV0UWaM6FzDz7fbkuAfB72Fm55sCAzTUnYTs+DNi02HtrL97i7ADnMKLwxZMQu5NSz3LqA==", "_"=>"1608147641486"}
+2020-12-16T19:41:09.564112+00:00 app[web.2]: Completed 201 Created in 198ms (Views: 8.2ms | ActiveRecord: 89.2ms)
+2020-12-16T19:41:09.574764+00:00 heroku[router]: at=info method=GET path="/checkin/attendances/new/setup?utf8=%E2%9C%93&number=150&authenticity_token=sJFYTxox1HCozTQ8cV0UWaM6FzDz7fbkuAfB72Fm55sCAzTUnYTs%2BDNi02HtrL97i7ADnMKLwxZMQu5NSz3LqA%3D%3D&_=1608147641486" host=graciesd.classic.kicksite.net request_id=d9f58de5-23c8-4bc0-867f-68f0d220526c fwd="66.27.91.146" dyno=web.2 connect=0ms service=27247ms status=201 bytes=1774 protocol=https
+2020-12-16T19:41:09.577636+00:00 heroku[router]: at=info method=GET path="/assets/cocoon-f11c624796ad1beb726336f108d6e098a14ec5fe3f621f6b2fd2e53b2502b63b.js" host=assets.classic.kicksite.net request_id=44fd45fe-659d-4897-8dd9-745889e7645c fwd="45.61.183.9" dyno=web.2 connect=11ms service=27162ms status=200 bytes=1727 protocol=https
+2020-12-16T19:41:09.579486+00:00 heroku[router]: at=info method=GET path="/assets/sass/print-8572b2926ce507dfb5607d916114188ddac51ee33cefd36407e51e07ba1fddb3.css" host=assets.classic.kicksite.net request_id=8a5909fc-05d7-4877-98be-5e4cb89857a1 fwd="72.182.16.20" dyno=web.2 connect=1ms service=26605ms status=200 bytes=988 protocol=https
+2020-12-16T19:41:10.012409+00:00 app[web.10]: Completed 200 OK in 1515ms (Views: 710.7ms | ActiveRecord: 694.7ms)
+2020-12-16T19:41:10.062683+00:00 app[web.10]: Started DELETE "/appointments/245909" for 98.245.209.108 at 2020-12-16 19:41:10 +0000
+2020-12-16T19:41:10.081637+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/assets/chevron-left-md-091bbce24b4f79c6af616415600acfcd2422df993b241b4be67b885a417513cb.png" host=assets.classic.kicksite.net request_id=7e0c9cd7-350f-4163-b651-05ded3e0c1c1 fwd="73.217.108.53" dyno=web.10 connect=1ms service=30000ms status=503 bytes=0 protocol=https
+2020-12-16T19:41:10.105137+00:00 app[web.6]: I, [2020-12-16T19:41:10.105016 #4]  INFO -- : Refreshing Gem list
+2020-12-16T19:41:10.111623+00:00 app[web.10]: Processing by AppointmentsController#destroy as JS
+2020-12-16T19:41:10.119493+00:00 app[web.10]: Parameters: {"authenticity_token"=>"F5xWma95rFBrCbGPUodjHFEGvudC3TtNxbSzCZaFPC1I+cs/A6/649xzOxox82kUUayqWQy9a+RJJiujL/+i6Q==", "id"=>"245909"}
+2020-12-16T19:41:10.204112+00:00 heroku[web.10]: Starting process with command `bundle exec unicorn -p 45870 -c ./config/unicorn.rb`
