@@ -1,10 +1,20 @@
 herologs() {
+  local service_name=
+
   if [[ "$#" -gt 0 ]]; then
     service_name="$1"
-  elif [[ -z "$service_name" ]]; then
-    echo -e "\033[31mError:\033[0m Default name \$DEFAULT_HLOGS_SERVICE not set!"
-    echo -e "       Use \033[1mexport DEFAULT_HLOGS_SERVICE=<service name>\033[0m"
-    echo -e "       or provide a service name argument."
+  elif $(type select_kicksite_app &>/dev/null); then
+    service_name="$(select_kicksite_app)"
+  elif [[ -n "$DEFAULT_HLOGS_SERVICE" ]]; then
+    service_name="$DEFAULT_HLOGS_SERVICE"
+  else
+    echo -e "\033[31mError:\033[0m \"select_kicksite_app\" is not available and the"
+    echo -e "       default name \$DEFAULT_HLOGS_SERVICE is not set!"
+    echo -e "       Please provide a service name argument."
+  fi
+
+  if [[ -z "$service_name" ]]; then
+    echo -e "No service name provided, aborting."
     return
   fi
 
