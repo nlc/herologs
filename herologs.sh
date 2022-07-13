@@ -1,7 +1,4 @@
 herologs() {
-  local service_name="$DEFAULT_HLOGS_SERVICE"
-
-
   if [[ "$#" -gt 0 ]]; then
     service_name="$1"
   elif [[ -z "$service_name" ]]; then
@@ -11,9 +8,14 @@ herologs() {
     return
   fi
 
+  heroku logs -t -a "$service_name"
+}
+
+herologs_errors() {
   echo
   echo -e "Parsing logs from \033[1m$service_name\033[0m"
-  heroku logs -t -a "$service_name" | gawk -f log_parser.awk
+
+  herologs "$1" | gawk -f log_parser.awk
 }
 
 herologs_test() {
